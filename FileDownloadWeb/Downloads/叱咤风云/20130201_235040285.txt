@@ -1,0 +1,143 @@
+2013-02-01 23:50:40:305  Info      Log Init OK
+2013-02-01 23:50:40:315  Info      Current Progress: Total=0 Current=0 Percentage=0 Progress=Progressing
+2013-02-01 23:50:40:325  Info      FileDownload: http://www.biquge.co/book/1/1780 
+2013-02-01 23:50:41:225  Info      Transfer started at 23:50:41
+2013-02-01 23:50:42:245  Info      Transfer Finish at 23:50:42
+2013-02-01 23:50:42:245  Info      Get Encoding OK
+2013-02-01 23:50:42:245  Info      Get File Content OK
+2013-02-01 23:50:42:245  Info      Download Index OK!
+2013-02-01 23:50:42:255  Info      Enter GetIndex
+2013-02-01 23:50:42:255  Info      Exit GetIndex
+2013-02-01 23:50:42:255  Info      Build Index!
+2013-02-01 23:50:42:265  Info      Get Page Infor List OK!
+2013-02-01 23:50:42:265  Info      Current Progress: Total=732 Current=0 Percentage=0 Progress=Progressing
+2013-02-01 23:50:42:265  Info      Save To: H:\Programming\OtherCode\NovelDownloadGIT\FileDownloadWeb\Downloads\叱咤风云
+2013-02-01 23:50:42:265  Info      Processing Record: 0
+2013-02-01 23:50:42:265  Info      FileDownload: http://www.biquge.co/book/1/1780 /567664.html
+2013-02-01 23:50:42:595  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:42:595  Error     Download Page Failed! [567664.html]
+2013-02-01 23:50:42:595  Info      Current Progress: Total=732 Current=1 Percentage=0 Progress=Progressing
+2013-02-01 23:50:42:595  Info      Processing Record: 1
+2013-02-01 23:50:42:595  Info      FileDownload: http://www.biquge.co/book/1/1780 /567665.html
+2013-02-01 23:50:42:765  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:42:765  Error     Download Page Failed! [567665.html]
+2013-02-01 23:50:42:765  Info      Current Progress: Total=732 Current=2 Percentage=0 Progress=Progressing
+2013-02-01 23:50:42:765  Info      Processing Record: 2
+2013-02-01 23:50:42:765  Info      FileDownload: http://www.biquge.co/book/1/1780 /567666.html
+2013-02-01 23:50:42:925  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:42:935  Error     Download Page Failed! [567666.html]
+2013-02-01 23:50:42:935  Info      Current Progress: Total=732 Current=3 Percentage=0 Progress=Progressing
+2013-02-01 23:50:42:935  Info      Processing Record: 3
+2013-02-01 23:50:42:935  Info      FileDownload: http://www.biquge.co/book/1/1780 /567667.html
+2013-02-01 23:50:43:095  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:43:095  Error     Download Page Failed! [567667.html]
+2013-02-01 23:50:43:095  Info      Current Progress: Total=732 Current=4 Percentage=0 Progress=Progressing
+2013-02-01 23:50:43:095  Info      Processing Record: 4
+2013-02-01 23:50:43:095  Info      FileDownload: http://www.biquge.co/book/1/1780 /567668.html
+2013-02-01 23:50:43:265  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:43:265  Error     Download Page Failed! [567668.html]
+2013-02-01 23:50:43:265  Info      Current Progress: Total=732 Current=5 Percentage=0 Progress=Progressing
+2013-02-01 23:50:43:265  Info      Processing Record: 5
+2013-02-01 23:50:43:265  Info      FileDownload: http://www.biquge.co/book/1/1780 /567669.html
+2013-02-01 23:50:43:425  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:43:425  Error     Download Page Failed! [567669.html]
+2013-02-01 23:50:43:425  Info      Current Progress: Total=732 Current=6 Percentage=0 Progress=Progressing
+2013-02-01 23:50:43:425  Info      Processing Record: 6
+2013-02-01 23:50:43:425  Info      FileDownload: http://www.biquge.co/book/1/1780 /567670.html
+2013-02-01 23:50:43:595  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:43:595  Error     Download Page Failed! [567670.html]
+2013-02-01 23:50:43:595  Info      Current Progress: Total=732 Current=7 Percentage=0 Progress=Progressing
+2013-02-01 23:50:43:595  Info      Processing Record: 7
+2013-02-01 23:50:43:595  Info      FileDownload: http://www.biquge.co/book/1/1780 /567671.html
+2013-02-01 23:50:43:765  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:43:765  Error     Download Page Failed! [567671.html]
+2013-02-01 23:50:43:765  Info      Current Progress: Total=732 Current=8 Percentage=1 Progress=Progressing
+2013-02-01 23:50:43:765  Info      Processing Record: 8
+2013-02-01 23:50:43:765  Info      FileDownload: http://www.biquge.co/book/1/1780 /567672.html
+2013-02-01 23:50:43:925  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:43:925  Error     Download Page Failed! [567672.html]
+2013-02-01 23:50:43:925  Info      Current Progress: Total=732 Current=9 Percentage=1 Progress=Progressing
+2013-02-01 23:50:43:925  Info      Processing Record: 9
+2013-02-01 23:50:43:925  Info      FileDownload: http://www.biquge.co/book/1/1780 /567673.html
+2013-02-01 23:50:44:095  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:44:095  Error     Download Page Failed! [567673.html]
+2013-02-01 23:50:44:095  Info      Current Progress: Total=732 Current=10 Percentage=1 Progress=Progressing
+2013-02-01 23:50:44:095  Info      Processing Record: 10
+2013-02-01 23:50:44:095  Info      FileDownload: http://www.biquge.co/book/1/1780 /567674.html
+2013-02-01 23:50:44:265  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:44:265  Error     Download Page Failed! [567674.html]
+2013-02-01 23:50:44:265  Info      Current Progress: Total=732 Current=11 Percentage=1 Progress=Progressing
+2013-02-01 23:50:44:265  Info      Processing Record: 11
+2013-02-01 23:50:44:265  Info      FileDownload: http://www.biquge.co/book/1/1780 /567675.html
+2013-02-01 23:50:44:425  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:44:425  Error     Download Page Failed! [567675.html]
+2013-02-01 23:50:44:425  Info      Current Progress: Total=732 Current=12 Percentage=1 Progress=Progressing
+2013-02-01 23:50:44:425  Info      Processing Record: 12
+2013-02-01 23:50:44:425  Info      FileDownload: http://www.biquge.co/book/1/1780 /567676.html
+2013-02-01 23:50:44:595  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:44:595  Error     Download Page Failed! [567676.html]
+2013-02-01 23:50:44:595  Info      Current Progress: Total=732 Current=13 Percentage=1 Progress=Progressing
+2013-02-01 23:50:44:595  Info      Processing Record: 13
+2013-02-01 23:50:44:595  Info      FileDownload: http://www.biquge.co/book/1/1780 /567677.html
+2013-02-01 23:50:44:765  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:44:765  Error     Download Page Failed! [567677.html]
+2013-02-01 23:50:44:765  Info      Current Progress: Total=732 Current=14 Percentage=1 Progress=Progressing
+2013-02-01 23:50:44:765  Info      Processing Record: 14
+2013-02-01 23:50:44:765  Info      FileDownload: http://www.biquge.co/book/1/1780 /567678.html
+2013-02-01 23:50:44:945  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:44:945  Error     Download Page Failed! [567678.html]
+2013-02-01 23:50:44:945  Info      Current Progress: Total=732 Current=15 Percentage=2 Progress=Progressing
+2013-02-01 23:50:44:945  Info      Processing Record: 15
+2013-02-01 23:50:44:945  Info      FileDownload: http://www.biquge.co/book/1/1780 /567679.html
+2013-02-01 23:50:45:115  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:45:115  Error     Download Page Failed! [567679.html]
+2013-02-01 23:50:45:115  Info      Current Progress: Total=732 Current=16 Percentage=2 Progress=Progressing
+2013-02-01 23:50:45:115  Info      Processing Record: 16
+2013-02-01 23:50:45:115  Info      FileDownload: http://www.biquge.co/book/1/1780 /567680.html
+2013-02-01 23:50:45:285  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:45:285  Error     Download Page Failed! [567680.html]
+2013-02-01 23:50:45:285  Info      Current Progress: Total=732 Current=17 Percentage=2 Progress=Progressing
+2013-02-01 23:50:45:285  Info      Processing Record: 17
+2013-02-01 23:50:45:285  Info      FileDownload: http://www.biquge.co/book/1/1780 /567681.html
+2013-02-01 23:50:45:325  Info      Stop is trigged, but it might take a while to stop
+2013-02-01 23:50:45:445  Error     System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FileDownloadLib.FileDownloadUtil.DownloadFile(String hostname, String uri, MemoryStream& fileContent, Boolean useSimData) in H:\Programming\OtherCode\NovelDownloadGIT\FileDownload\FileDownloadUtil.cs:line 155
+2013-02-01 23:50:45:445  Error     Download Page Failed! [567681.html]
+2013-02-01 23:50:45:445  Info      Current Progress: Total=732 Current=18 Percentage=2 Progress=Progressing
+2013-02-01 23:50:45:445  Info      ProcessAllOneByOne OK
+2013-02-01 23:50:45:445  Info      Current Progress: Total=732 Current=732 Percentage=100 Progress=FinishOK

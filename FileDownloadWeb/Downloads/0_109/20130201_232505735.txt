@@ -1,0 +1,325 @@
+2013-02-01 23:25:05:745  Info      Log Init OK
+2013-02-01 23:25:05:745  Info      Current Progress: Total=0 Current=0 Percentage=0 Progress=Progressing
+2013-02-01 23:25:05:765  Info      FileDownload: http://biquge.com/0_109
+2013-02-01 23:25:07:715  Info      Transfer started at 23:25:07
+2013-02-01 23:25:09:916  Info      Transfer Finish at 23:25:09
+2013-02-01 23:25:09:916  Info      Get Encoding OK
+2013-02-01 23:25:09:916  Info      Get File Content OK
+2013-02-01 23:25:09:916  Info      Download Index OK!
+2013-02-01 23:25:09:916  Info      Enter GetIndex
+2013-02-01 23:25:09:936  Info      Exit GetIndex
+2013-02-01 23:25:09:936  Info      Build Index!
+2013-02-01 23:25:09:966  Info      Get Page Infor List OK!
+2013-02-01 23:25:09:966  Info      Current Progress: Total=1188 Current=0 Percentage=0 Progress=Progressing
+2013-02-01 23:25:09:966  Info      Save To: H:\Programming\OtherCode\NovelDownloadGIT\FileDownloadWeb\Downloads\0_109
+2013-02-01 23:25:09:986  Info      Processing Record: 0
+2013-02-01 23:25:09:986  Info      FileDownload: http://biquge.com/0_109/268503.html
+2013-02-01 23:25:12:186  Info      Transfer started at 23:25:12
+2013-02-01 23:25:12:546  Info      Transfer Finish at 23:25:12
+2013-02-01 23:25:12:546  Info      Get Encoding OK
+2013-02-01 23:25:12:546  Info      Get File Content OK
+2013-02-01 23:25:12:546  Info      Enter GetPageInfo
+2013-02-01 23:25:12:546  Info      Exit GetPageInfo
+2013-02-01 23:25:12:546  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:12:546  Info      Invalid File Content: (could be a coding issue)268503.html
+2013-02-01 23:25:12:546  Info      Current Progress: Total=1188 Current=1 Percentage=0 Progress=Progressing
+2013-02-01 23:25:12:546  Info      Processing Record: 1
+2013-02-01 23:25:12:546  Info      FileDownload: http://biquge.com/0_109/268504.html
+2013-02-01 23:25:13:016  Info      Transfer started at 23:25:13
+2013-02-01 23:25:13:376  Info      Transfer Finish at 23:25:13
+2013-02-01 23:25:13:376  Info      Get Encoding OK
+2013-02-01 23:25:13:376  Info      Get File Content OK
+2013-02-01 23:25:13:376  Info      Enter GetPageInfo
+2013-02-01 23:25:13:376  Info      Exit GetPageInfo
+2013-02-01 23:25:13:376  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:13:376  Info      Invalid File Content: (could be a coding issue)268504.html
+2013-02-01 23:25:13:376  Info      Current Progress: Total=1188 Current=2 Percentage=0 Progress=Progressing
+2013-02-01 23:25:13:376  Info      Processing Record: 2
+2013-02-01 23:25:13:376  Info      FileDownload: http://biquge.com/0_109/268505.html
+2013-02-01 23:25:13:736  Info      Transfer started at 23:25:13
+2013-02-01 23:25:14:096  Info      Transfer Finish at 23:25:14
+2013-02-01 23:25:14:096  Info      Get Encoding OK
+2013-02-01 23:25:14:096  Info      Get File Content OK
+2013-02-01 23:25:14:096  Info      Enter GetPageInfo
+2013-02-01 23:25:14:096  Info      Exit GetPageInfo
+2013-02-01 23:25:14:096  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:14:096  Info      Invalid File Content: (could be a coding issue)268505.html
+2013-02-01 23:25:14:096  Info      Current Progress: Total=1188 Current=3 Percentage=0 Progress=Progressing
+2013-02-01 23:25:14:096  Info      Processing Record: 3
+2013-02-01 23:25:14:096  Info      FileDownload: http://biquge.com/0_109/268506.html
+2013-02-01 23:25:14:456  Info      Transfer started at 23:25:14
+2013-02-01 23:25:14:456  Info      Transfer Finish at 23:25:14
+2013-02-01 23:25:14:456  Info      Get Encoding OK
+2013-02-01 23:25:14:456  Info      Get File Content OK
+2013-02-01 23:25:14:456  Info      Enter GetPageInfo
+2013-02-01 23:25:14:456  Info      Exit GetPageInfo
+2013-02-01 23:25:14:456  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:14:456  Info      Invalid File Content: (could be a coding issue)268506.html
+2013-02-01 23:25:14:456  Info      Current Progress: Total=1188 Current=4 Percentage=0 Progress=Progressing
+2013-02-01 23:25:14:456  Info      Processing Record: 4
+2013-02-01 23:25:14:456  Info      FileDownload: http://biquge.com/0_109/268507.html
+2013-02-01 23:25:14:816  Info      Transfer started at 23:25:14
+2013-02-01 23:25:15:936  Info      Transfer Finish at 23:25:15
+2013-02-01 23:25:15:936  Info      Get Encoding OK
+2013-02-01 23:25:15:936  Info      Get File Content OK
+2013-02-01 23:25:15:936  Info      Enter GetPageInfo
+2013-02-01 23:25:15:936  Info      Exit GetPageInfo
+2013-02-01 23:25:15:936  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:15:936  Info      Invalid File Content: (could be a coding issue)268507.html
+2013-02-01 23:25:15:936  Info      Current Progress: Total=1188 Current=5 Percentage=0 Progress=Progressing
+2013-02-01 23:25:15:936  Info      Processing Record: 5
+2013-02-01 23:25:15:936  Info      FileDownload: http://biquge.com/0_109/268508.html
+2013-02-01 23:25:16:296  Info      Transfer started at 23:25:16
+2013-02-01 23:25:16:656  Info      Transfer Finish at 23:25:16
+2013-02-01 23:25:16:656  Info      Get Encoding OK
+2013-02-01 23:25:16:656  Info      Get File Content OK
+2013-02-01 23:25:16:656  Info      Enter GetPageInfo
+2013-02-01 23:25:16:656  Info      Exit GetPageInfo
+2013-02-01 23:25:16:656  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:16:656  Info      Invalid File Content: (could be a coding issue)268508.html
+2013-02-01 23:25:16:656  Info      Current Progress: Total=1188 Current=6 Percentage=0 Progress=Progressing
+2013-02-01 23:25:16:656  Info      Processing Record: 6
+2013-02-01 23:25:16:656  Info      FileDownload: http://biquge.com/0_109/268509.html
+2013-02-01 23:25:17:016  Info      Transfer started at 23:25:17
+2013-02-01 23:25:17:376  Info      Transfer Finish at 23:25:17
+2013-02-01 23:25:17:376  Info      Get Encoding OK
+2013-02-01 23:25:17:376  Info      Get File Content OK
+2013-02-01 23:25:17:376  Info      Enter GetPageInfo
+2013-02-01 23:25:17:376  Info      Exit GetPageInfo
+2013-02-01 23:25:17:376  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:17:376  Info      Invalid File Content: (could be a coding issue)268509.html
+2013-02-01 23:25:17:376  Info      Current Progress: Total=1188 Current=7 Percentage=0 Progress=Progressing
+2013-02-01 23:25:17:376  Info      Processing Record: 7
+2013-02-01 23:25:17:376  Info      FileDownload: http://biquge.com/0_109/268510.html
+2013-02-01 23:25:17:736  Info      Transfer started at 23:25:17
+2013-02-01 23:25:18:096  Info      Transfer Finish at 23:25:18
+2013-02-01 23:25:18:096  Info      Get Encoding OK
+2013-02-01 23:25:18:096  Info      Get File Content OK
+2013-02-01 23:25:18:096  Info      Enter GetPageInfo
+2013-02-01 23:25:18:096  Info      Exit GetPageInfo
+2013-02-01 23:25:18:096  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:18:096  Info      Invalid File Content: (could be a coding issue)268510.html
+2013-02-01 23:25:18:096  Info      Current Progress: Total=1188 Current=8 Percentage=0 Progress=Progressing
+2013-02-01 23:25:18:096  Info      Processing Record: 8
+2013-02-01 23:25:18:096  Info      FileDownload: http://biquge.com/0_109/268511.html
+2013-02-01 23:25:18:456  Info      Transfer started at 23:25:18
+2013-02-01 23:25:19:556  Info      Transfer Finish at 23:25:19
+2013-02-01 23:25:19:556  Info      Get Encoding OK
+2013-02-01 23:25:19:556  Info      Get File Content OK
+2013-02-01 23:25:19:556  Info      Enter GetPageInfo
+2013-02-01 23:25:19:556  Info      Exit GetPageInfo
+2013-02-01 23:25:19:556  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:19:556  Info      Invalid File Content: (could be a coding issue)268511.html
+2013-02-01 23:25:19:556  Info      Current Progress: Total=1188 Current=9 Percentage=0 Progress=Progressing
+2013-02-01 23:25:19:556  Info      Processing Record: 9
+2013-02-01 23:25:19:556  Info      FileDownload: http://biquge.com/0_109/268512.html
+2013-02-01 23:25:20:006  Info      Transfer started at 23:25:20
+2013-02-01 23:25:20:927  Info      Transfer Finish at 23:25:20
+2013-02-01 23:25:20:927  Info      Get Encoding OK
+2013-02-01 23:25:20:927  Info      Get File Content OK
+2013-02-01 23:25:20:927  Info      Enter GetPageInfo
+2013-02-01 23:25:20:927  Info      Exit GetPageInfo
+2013-02-01 23:25:20:927  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:20:927  Info      Invalid File Content: (could be a coding issue)268512.html
+2013-02-01 23:25:20:927  Info      Current Progress: Total=1188 Current=10 Percentage=0 Progress=Progressing
+2013-02-01 23:25:20:927  Info      Processing Record: 10
+2013-02-01 23:25:20:927  Info      FileDownload: http://biquge.com/0_109/268513.html
+2013-02-01 23:25:21:287  Info      Transfer started at 23:25:21
+2013-02-01 23:25:21:647  Info      Transfer Finish at 23:25:21
+2013-02-01 23:25:21:647  Info      Get Encoding OK
+2013-02-01 23:25:21:647  Info      Get File Content OK
+2013-02-01 23:25:21:647  Info      Enter GetPageInfo
+2013-02-01 23:25:21:647  Info      Exit GetPageInfo
+2013-02-01 23:25:21:647  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:21:647  Info      Invalid File Content: (could be a coding issue)268513.html
+2013-02-01 23:25:21:647  Info      Current Progress: Total=1188 Current=11 Percentage=0 Progress=Progressing
+2013-02-01 23:25:21:647  Info      Processing Record: 11
+2013-02-01 23:25:21:647  Info      FileDownload: http://biquge.com/0_109/268514.html
+2013-02-01 23:25:22:097  Info      Transfer started at 23:25:22
+2013-02-01 23:25:22:457  Info      Transfer Finish at 23:25:22
+2013-02-01 23:25:22:457  Info      Get Encoding OK
+2013-02-01 23:25:22:457  Info      Get File Content OK
+2013-02-01 23:25:22:457  Info      Enter GetPageInfo
+2013-02-01 23:25:22:457  Info      Exit GetPageInfo
+2013-02-01 23:25:22:457  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:22:457  Info      Invalid File Content: (could be a coding issue)268514.html
+2013-02-01 23:25:22:457  Info      Current Progress: Total=1188 Current=12 Percentage=1 Progress=Progressing
+2013-02-01 23:25:22:457  Info      Processing Record: 12
+2013-02-01 23:25:22:457  Info      FileDownload: http://biquge.com/0_109/268515.html
+2013-02-01 23:25:22:817  Info      Transfer started at 23:25:22
+2013-02-01 23:25:23:177  Info      Transfer Finish at 23:25:23
+2013-02-01 23:25:23:177  Info      Get Encoding OK
+2013-02-01 23:25:23:177  Info      Get File Content OK
+2013-02-01 23:25:23:177  Info      Enter GetPageInfo
+2013-02-01 23:25:23:177  Info      Exit GetPageInfo
+2013-02-01 23:25:23:177  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:23:177  Info      Invalid File Content: (could be a coding issue)268515.html
+2013-02-01 23:25:23:177  Info      Current Progress: Total=1188 Current=13 Percentage=1 Progress=Progressing
+2013-02-01 23:25:23:177  Info      Processing Record: 13
+2013-02-01 23:25:23:177  Info      FileDownload: http://biquge.com/0_109/268516.html
+2013-02-01 23:25:23:537  Info      Transfer started at 23:25:23
+2013-02-01 23:25:23:897  Info      Transfer Finish at 23:25:23
+2013-02-01 23:25:23:897  Info      Get Encoding OK
+2013-02-01 23:25:23:897  Info      Get File Content OK
+2013-02-01 23:25:23:897  Info      Enter GetPageInfo
+2013-02-01 23:25:23:897  Info      Exit GetPageInfo
+2013-02-01 23:25:23:897  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:23:897  Info      Invalid File Content: (could be a coding issue)268516.html
+2013-02-01 23:25:23:897  Info      Current Progress: Total=1188 Current=14 Percentage=1 Progress=Progressing
+2013-02-01 23:25:23:897  Info      Processing Record: 14
+2013-02-01 23:25:23:897  Info      FileDownload: http://biquge.com/0_109/268517.html
+2013-02-01 23:25:24:257  Info      Transfer started at 23:25:24
+2013-02-01 23:25:24:617  Info      Transfer Finish at 23:25:24
+2013-02-01 23:25:24:617  Info      Get Encoding OK
+2013-02-01 23:25:24:617  Info      Get File Content OK
+2013-02-01 23:25:24:617  Info      Enter GetPageInfo
+2013-02-01 23:25:24:617  Info      Exit GetPageInfo
+2013-02-01 23:25:24:617  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:24:617  Info      Invalid File Content: (could be a coding issue)268517.html
+2013-02-01 23:25:24:617  Info      Current Progress: Total=1188 Current=15 Percentage=1 Progress=Progressing
+2013-02-01 23:25:24:617  Info      Processing Record: 15
+2013-02-01 23:25:24:617  Info      FileDownload: http://biquge.com/0_109/268518.html
+2013-02-01 23:25:24:977  Info      Transfer started at 23:25:24
+2013-02-01 23:25:24:977  Info      Transfer Finish at 23:25:24
+2013-02-01 23:25:25:337  Info      Get Encoding OK
+2013-02-01 23:25:25:337  Info      Get File Content OK
+2013-02-01 23:25:25:337  Info      Enter GetPageInfo
+2013-02-01 23:25:25:337  Info      Exit GetPageInfo
+2013-02-01 23:25:25:337  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:25:337  Info      Invalid File Content: (could be a coding issue)268518.html
+2013-02-01 23:25:25:337  Info      Current Progress: Total=1188 Current=16 Percentage=1 Progress=Progressing
+2013-02-01 23:25:25:337  Info      Processing Record: 16
+2013-02-01 23:25:25:337  Info      FileDownload: http://biquge.com/0_109/268519.html
+2013-02-01 23:25:25:697  Info      Transfer started at 23:25:25
+2013-02-01 23:25:25:697  Info      Transfer Finish at 23:25:25
+2013-02-01 23:25:26:057  Info      Get Encoding OK
+2013-02-01 23:25:26:057  Info      Get File Content OK
+2013-02-01 23:25:26:057  Info      Enter GetPageInfo
+2013-02-01 23:25:26:057  Info      Exit GetPageInfo
+2013-02-01 23:25:26:057  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:26:057  Info      Invalid File Content: (could be a coding issue)268519.html
+2013-02-01 23:25:26:057  Info      Current Progress: Total=1188 Current=17 Percentage=1 Progress=Progressing
+2013-02-01 23:25:26:057  Info      Processing Record: 17
+2013-02-01 23:25:26:057  Info      FileDownload: http://biquge.com/0_109/268520.html
+2013-02-01 23:25:26:417  Info      Transfer started at 23:25:26
+2013-02-01 23:25:27:697  Info      Transfer Finish at 23:25:27
+2013-02-01 23:25:27:697  Info      Get Encoding OK
+2013-02-01 23:25:27:697  Info      Get File Content OK
+2013-02-01 23:25:27:697  Info      Enter GetPageInfo
+2013-02-01 23:25:27:697  Info      Exit GetPageInfo
+2013-02-01 23:25:27:697  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:27:697  Info      Invalid File Content: (could be a coding issue)268520.html
+2013-02-01 23:25:27:697  Info      Current Progress: Total=1188 Current=18 Percentage=1 Progress=Progressing
+2013-02-01 23:25:27:697  Info      Processing Record: 18
+2013-02-01 23:25:27:697  Info      FileDownload: http://biquge.com/0_109/268521.html
+2013-02-01 23:25:28:057  Info      Transfer started at 23:25:28
+2013-02-01 23:25:28:417  Info      Transfer Finish at 23:25:28
+2013-02-01 23:25:28:417  Info      Get Encoding OK
+2013-02-01 23:25:28:417  Info      Get File Content OK
+2013-02-01 23:25:28:417  Info      Enter GetPageInfo
+2013-02-01 23:25:28:417  Info      Exit GetPageInfo
+2013-02-01 23:25:28:417  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:28:417  Info      Invalid File Content: (could be a coding issue)268521.html
+2013-02-01 23:25:28:417  Info      Current Progress: Total=1188 Current=19 Percentage=1 Progress=Progressing
+2013-02-01 23:25:28:417  Info      Processing Record: 19
+2013-02-01 23:25:28:417  Info      FileDownload: http://biquge.com/0_109/268522.html
+2013-02-01 23:25:28:777  Info      Transfer started at 23:25:28
+2013-02-01 23:25:29:137  Info      Transfer Finish at 23:25:29
+2013-02-01 23:25:29:137  Info      Get Encoding OK
+2013-02-01 23:25:29:137  Info      Get File Content OK
+2013-02-01 23:25:29:137  Info      Enter GetPageInfo
+2013-02-01 23:25:29:137  Info      Exit GetPageInfo
+2013-02-01 23:25:29:137  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:29:137  Info      Invalid File Content: (could be a coding issue)268522.html
+2013-02-01 23:25:29:137  Info      Current Progress: Total=1188 Current=20 Percentage=1 Progress=Progressing
+2013-02-01 23:25:29:137  Info      Processing Record: 20
+2013-02-01 23:25:29:137  Info      FileDownload: http://biquge.com/0_109/268523.html
+2013-02-01 23:25:29:497  Info      Transfer started at 23:25:29
+2013-02-01 23:25:30:597  Info      Transfer Finish at 23:25:30
+2013-02-01 23:25:30:597  Info      Get Encoding OK
+2013-02-01 23:25:30:597  Info      Get File Content OK
+2013-02-01 23:25:30:597  Info      Enter GetPageInfo
+2013-02-01 23:25:30:597  Info      Exit GetPageInfo
+2013-02-01 23:25:30:597  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:30:597  Info      Invalid File Content: (could be a coding issue)268523.html
+2013-02-01 23:25:30:597  Info      Current Progress: Total=1188 Current=21 Percentage=1 Progress=Progressing
+2013-02-01 23:25:30:597  Info      Processing Record: 21
+2013-02-01 23:25:30:597  Info      FileDownload: http://biquge.com/0_109/268524.html
+2013-02-01 23:25:30:957  Info      Transfer started at 23:25:30
+2013-02-01 23:25:31:317  Info      Transfer Finish at 23:25:31
+2013-02-01 23:25:31:317  Info      Get Encoding OK
+2013-02-01 23:25:31:317  Info      Get File Content OK
+2013-02-01 23:25:31:317  Info      Enter GetPageInfo
+2013-02-01 23:25:31:317  Info      Exit GetPageInfo
+2013-02-01 23:25:31:317  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:31:317  Info      Invalid File Content: (could be a coding issue)268524.html
+2013-02-01 23:25:31:317  Info      Current Progress: Total=1188 Current=22 Percentage=1 Progress=Progressing
+2013-02-01 23:25:31:317  Info      Processing Record: 22
+2013-02-01 23:25:31:317  Info      FileDownload: http://biquge.com/0_109/268525.html
+2013-02-01 23:25:32:357  Info      Transfer started at 23:25:32
+2013-02-01 23:25:32:357  Info      Transfer Finish at 23:25:32
+2013-02-01 23:25:32:357  Info      Get Encoding OK
+2013-02-01 23:25:32:357  Info      Get File Content OK
+2013-02-01 23:25:32:357  Info      Enter GetPageInfo
+2013-02-01 23:25:32:357  Info      Exit GetPageInfo
+2013-02-01 23:25:32:357  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:32:357  Info      Invalid File Content: (could be a coding issue)268525.html
+2013-02-01 23:25:32:357  Info      Current Progress: Total=1188 Current=23 Percentage=1 Progress=Progressing
+2013-02-01 23:25:32:357  Info      Processing Record: 23
+2013-02-01 23:25:32:357  Info      FileDownload: http://biquge.com/0_109/268526.html
+2013-02-01 23:25:32:808  Info      Transfer started at 23:25:32
+2013-02-01 23:25:33:168  Info      Transfer Finish at 23:25:33
+2013-02-01 23:25:33:168  Info      Get Encoding OK
+2013-02-01 23:25:33:168  Info      Get File Content OK
+2013-02-01 23:25:33:168  Info      Enter GetPageInfo
+2013-02-01 23:25:33:168  Info      Exit GetPageInfo
+2013-02-01 23:25:33:168  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:33:168  Info      Invalid File Content: (could be a coding issue)268526.html
+2013-02-01 23:25:33:168  Info      Current Progress: Total=1188 Current=24 Percentage=2 Progress=Progressing
+2013-02-01 23:25:33:168  Info      Processing Record: 24
+2013-02-01 23:25:33:168  Info      FileDownload: http://biquge.com/0_109/268527.html
+2013-02-01 23:25:33:638  Info      Transfer started at 23:25:33
+2013-02-01 23:25:34:888  Info      Transfer Finish at 23:25:34
+2013-02-01 23:25:34:888  Info      Get Encoding OK
+2013-02-01 23:25:34:888  Info      Get File Content OK
+2013-02-01 23:25:34:888  Info      Enter GetPageInfo
+2013-02-01 23:25:34:888  Info      Exit GetPageInfo
+2013-02-01 23:25:34:888  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:34:888  Info      Invalid File Content: (could be a coding issue)268527.html
+2013-02-01 23:25:34:888  Info      Current Progress: Total=1188 Current=25 Percentage=2 Progress=Progressing
+2013-02-01 23:25:34:888  Info      Processing Record: 25
+2013-02-01 23:25:34:888  Info      FileDownload: http://biquge.com/0_109/268528.html
+2013-02-01 23:25:35:348  Info      Transfer started at 23:25:35
+2013-02-01 23:25:35:708  Info      Transfer Finish at 23:25:35
+2013-02-01 23:25:35:708  Info      Get Encoding OK
+2013-02-01 23:25:35:708  Info      Get File Content OK
+2013-02-01 23:25:35:708  Info      Enter GetPageInfo
+2013-02-01 23:25:35:708  Info      Exit GetPageInfo
+2013-02-01 23:25:35:708  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:35:708  Info      Invalid File Content: (could be a coding issue)268528.html
+2013-02-01 23:25:35:708  Info      Current Progress: Total=1188 Current=26 Percentage=2 Progress=Progressing
+2013-02-01 23:25:35:708  Info      Processing Record: 26
+2013-02-01 23:25:35:708  Info      FileDownload: http://biquge.com/0_109/268529.html
+2013-02-01 23:25:36:068  Info      Transfer started at 23:25:36
+2013-02-01 23:25:37:368  Info      Transfer Finish at 23:25:37
+2013-02-01 23:25:37:368  Info      Get Encoding OK
+2013-02-01 23:25:37:368  Info      Get File Content OK
+2013-02-01 23:25:37:368  Info      Enter GetPageInfo
+2013-02-01 23:25:37:368  Info      Exit GetPageInfo
+2013-02-01 23:25:37:368  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:37:368  Info      Invalid File Content: (could be a coding issue)268529.html
+2013-02-01 23:25:37:368  Info      Current Progress: Total=1188 Current=27 Percentage=2 Progress=Progressing
+2013-02-01 23:25:37:368  Info      Processing Record: 27
+2013-02-01 23:25:37:368  Info      FileDownload: http://biquge.com/0_109/268530.html
+2013-02-01 23:25:37:808  Info      Transfer started at 23:25:37
+2013-02-01 23:25:38:438  Info      Stop is trigged, but it might take a while to stop
+2013-02-01 23:25:39:518  Info      Transfer Finish at 23:25:39
+2013-02-01 23:25:39:518  Info      Get Encoding OK
+2013-02-01 23:25:39:518  Info      Get File Content OK
+2013-02-01 23:25:39:518  Info      Enter GetPageInfo
+2013-02-01 23:25:39:518  Info      Exit GetPageInfo
+2013-02-01 23:25:39:518  Error     Download Image and Text content is Emptty
+2013-02-01 23:25:39:518  Info      Invalid File Content: (could be a coding issue)268530.html
+2013-02-01 23:25:39:518  Info      Current Progress: Total=1188 Current=28 Percentage=2 Progress=Progressing
+2013-02-01 23:25:39:518  Info      ProcessAllOneByOne OK
+2013-02-01 23:25:39:518  Info      Current Progress: Total=1188 Current=1188 Percentage=100 Progress=FinishOK

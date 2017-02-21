@@ -1,0 +1,2 @@
+2013-02-01 17:56:43:552  Info      Log Init OK
+2013-02-01 17:56:43:552  Error     Novel Name can't be empty

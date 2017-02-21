@@ -1,0 +1,1651 @@
+<style type="text/css">
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,img,div,dl,dt,dd,input,select,form,fieldset {
+	margin:auto;
+	padding:0;
+}
+img {
+	border:0;
+}
+ul li {
+	list-style:none;
+}
+a {
+	color:#6F78A7;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.clear {
+	clear:both;
+	font-size:0;
+	line-height:0;
+	height:0;
+	padding:0;
+	margin:auto;
+}
+body {
+	font-size:13px;
+	color:#555555;
+	font-family:"Microsoft YaHei","?￠èí??oú","??ì?"; background-color:#E9FAFF;
+}
+.header {
+	width:980px;
+	margin:auto;
+	height:61px;
+}
+.header_logo a {
+	background:url(/images/logo.gif) no-repeat scroll;
+	display:block;
+	width:250px;
+	height:60px;
+	float:left;
+	text-indent:-9999px;
+}
+.header_search {
+	float:left;
+	margin:20px auto auto 30px;
+	overflow:hidden;
+	width:450px;
+}
+.header_search input.search {
+	width:320px;
+	height:24px;
+	padding:3px;
+	margin-right:5px;
+	border:1px solid #A6D3E8;
+	font:16px/22px arial;
+}
+.header_search button {
+	background:#DDDDDD;
+	cursor:pointer;
+	font-size:14px;
+	height:32px;
+	width:95px;
+}
+#auto_div {
+	position:absolute;
+	background-color:white;
+	padding:0px;
+}
+.autoinput {
+	padding-left:4px;
+	padding-right:0px;
+	padding-top:3px;
+}
+.sug1 {
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:10pt;
+	line-height:18px;
+}
+.addborder {
+	border:1px solid #8c8c8c;
+}
+.userpanel {
+	width:220px;
+	float:right;
+	color:#9E9E9E;
+	padding:5px 3px;
+	margin-top:3px;
+	margin-right:5px;
+	border:1px dotted #88C6E5;
+	text-align:center;
+}
+.userpanel p {
+	width:220px;
+	float:left;
+	text-align:center;
+	height:26px;
+}
+.userpanel a {
+	line-height:200%;
+	color:#9E9E9E;
+}
+.nav {
+	margin:auto;
+	width:980px;
+	margin-top:10px;
+	height:40px;
+	overflow:hidden;
+	background:#88C6E5;
+}
+.nav ul li {
+	float:left;
+	line-height:44px;
+}
+.nav ul li a {
+	padding:0 17px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+}
+.ywtop {
+	background-color:#E1ECED;
+	border-bottom:1px solid #A6D3E8;
+	color:#808080;
+	height:35px;
+	min-width:950px;
+	width:100%;
+}
+.ywtop a {
+	color:#808080;
+}
+.ywtop_con {
+	line-height:35px;
+	margin:0 auto;
+	text-indent:16px;
+	vertical-align:middle;
+	width:950px;
+}
+.ywtop_sethome {
+	background:url("/images/sethome.gif") no-repeat scroll 0 10px transparent;
+	display:inline;
+	float:left;
+	margin-right:20px;
+}
+.ywtop_addfavorite {
+	background:url("/images/addfavorites.gif") no-repeat scroll 0 10px transparent;
+	display:inline;
+	float:left;
+}
+.ywtop_input {
+	float:right;
+}
+.navt {
+	height:28px;
+	overflow:hidden;
+	padding:7px 0 0;
+}
+.navt .nle {
+	float:left;
+	overflow:hidden;
+	width:250px;
+}
+.nle .sy {
+	float:left;
+	width:120px;
+}
+.navt .nri {
+	float:right;
+	overflow:hidden;
+}
+.nri .cc {
+	float:left;
+	overflow:hidden;
+	width:155px;
+}
+.cc .txt {
+	color:#808080;
+	float:left;
+	text-align:right;
+}
+.cc .inp {
+	float:left;
+	padding-top:7px;
+	width:90px;
+}
+.inp input {
+	float:left;
+	width:87px;
+	background-color:#FFFFFF;
+	border:1px solid #A6D3E8;
+	height:18px;
+	margin:1px 0;
+}
+.nri {
+	float:right;
+	font-size:13px;
+}
+.nri .frii {
+	float:left;
+	font-size:14px;
+	margin-left:5px;
+	padding-top:8px;
+	width:55px;
+}
+.frii .int {
+	background:url("/images/login_oa_bar.gif") no-repeat scroll 0 0 transparent;
+	border:medium none;
+	color:#2A4E8A;
+	float:left;
+	font-size:12px;
+	height:21px;
+	line-height:21px;
+	text-align:center;
+	width:51px;
+}
+.nri .ccc {
+	float:left;
+	overflow:hidden;
+	padding-left:10px;
+
+}
+.ccc .txtt {
+	color:#808080;
+	float:left;
+	padding-left:10px;
+}
+.txtt a,.txtt a:hover {
+	color:#808080;
+	text-decoration:none;
+}
+.MessageDiv {
+    background: #FFF9D9;
+    border: 1px solid #FFCC33;
+    line-height: 150%;
+    width:800px;
+    margin: 10px auto auto;
+    padding: 10px;
+    text-align:center;}
+.footer {
+	margin:auto; 
+	margin-top:10px;
+	overflow:hidden;
+	width:980px;
+	text-align:center;
+}
+#footer {
+	margin:auto; 
+	margin-top:10px;
+	overflow:hidden;
+	width:980px;
+	text-align:center;
+}
+.footer_link {
+	width:92%;
+	border-bottom:2px solid #88C6E5; 
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	margin:5px auto;
+}
+.footer_cont p{
+	line-height:20px;
+	width:88%;
+	color:#b2b2b2;
+}
+
+.box_con {
+	border:2px solid #88C6E5;
+	margin:10px auto;
+	line-height:100%;
+	width:976px;
+	overflow:hidden;
+}
+.con_top {
+	background-color:#E1ECED;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #88C6E5;
+	width:100%;
+	padding-left:10px;
+}
+.con_top #bdshare {
+	float:right;
+	text-align:right;
+	height:20px;
+	line-height:20px;
+	padding-right:20px;
+	padding-top:9px;
+}
+#sidebar {
+	float:right;
+	width:264px;
+	_width:270px;
+	border-left:1px dashed #88C6E5;
+	text-align:left;
+}
+#sidebar .xian {
+	height:1px;
+	border-top:1px dashed #88C6E5;
+	overflow:hidden;
+	width:100%;
+}
+.sidebartitle {
+	font-weight:bold;
+	line-height:150%;
+	font-size:11pt;
+	padding-left:10px;
+	padding-top:2px;
+	width:100%;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow:hidden;
+}
+.sidebarlist {
+	line-height:100%;
+	padding-left:20px;
+	margin-bottom:5px;
+	overflow:hidden;
+	_height:187px;
+}
+.sidebarlist a {
+	float:left;
+	line-height:200%;
+	width:49.5%;
+	_width:49%;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow:hidden;
+}
+#maininfo {
+	float:left;
+	width:700px;
+	_width:670px;
+	max-height:430px;
+}
+#fmimg {
+	background-color:#E1ECED;
+	float:left;
+	padding:12px;
+	margin:12px;
+	width:126px;
+}
+#fmimg img {
+	height:150px;
+	margin:3px;
+	width:120px;
+	border:none;
+}
+#info {
+	padding:0 10px;
+	margin:10px;
+	font-size:15px;
+	height:203px;
+	_height:190px;
+	max-height:195px;
+}
+#info h1 {
+	font-size:28px;
+	_font-size:22px;
+	font-family:"oúì?";
+	font-weight:bold;
+	height:44px;
+	_height:22px;
+	line-height:44px;
+	_line-height:22px;
+	padding:1px;
+	margin:auto;
+	overflow:hidden;
+}
+#info p {
+	height:25px;
+	line-height:25px;
+	padding-top:2px;
+	float:left;
+	width:440px;
+	margin:auto;
+	overflow:hidden;
+}
+#intro {
+	width:100%;
+	overflow:hidden;
+	line-height:200%;
+	border-top:1px dashed #88C6E5;
+	padding:10px;
+	font-size:13px;
+	_height:190px;
+}
+#list {
+	padding:2px;
+}
+#list dl {
+	float:left;
+	margin:auto;
+	overflow:hidden;
+	padding-bottom:1px;
+}
+#list dt {
+	background:#C3DFEA;
+	display:inline;
+	line-height:28px;
+	float:left;
+	margin:auto auto 5px auto;
+	width:98%;
+	*width:97.5%;
+	font-size:14px;
+	padding:5px 10px;
+	overflow:hidden;
+	text-align:center;
+	vertical-align:middle;
+}
+#list dd {
+	border-bottom:1px dashed #CCCCCC;
+	display:inline;
+	float:left;
+	height:25px;
+	line-height:200%;
+	margin-bottom:5px;
+	overflow:hidden;
+	text-align:left;
+	text-indent:10px;
+	vertical-align:middle;
+	width:33%;
+}
+#list dd A:link {
+	color:#444444;
+	TEXT-DECORATION:none;
+}
+#list dd A:visited {
+	COLOR:#178102;
+	TEXT-DECORATION:none;
+	text-decoration:underline;
+}
+</style>
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+
+<head>
+<title>0_109</title>
+</head>
+<body>
+
+<div class="box_con">
+<div id="list">
+<dl>
+<dt>0_109 正文</dt>
+
+<dd><a href="268503.html" title="第001章 重生少年">第001章 重生少年</a></dd>
+<dd><a href="268504.html" title="第002章 丹药宗师">第002章 丹药宗师</a></dd>
+<dd><a href="268505.html" title="第003章 修为提升">第003章 修为提升</a></dd>
+<dd><a href="268506.html" title="第004章 暴打古洋">第004章 暴打古洋</a></dd>
+<dd><a href="268507.html" title="第005章 未婚妻">第005章 未婚妻</a></dd>
+<dd><a href="268508.html" title="第006章 天才，不过如此">第006章 天才，不过如此</a></dd>
+<dd><a href="268509.html" title="第007章 休之">第007章 休之</a></dd>
+<dd><a href="268510.html" title="第008章 再次提升">第008章 再次提升</a></dd>
+<dd><a href="268511.html" title="第009章 练丹拍卖">第009章 练丹拍卖</a></dd>
+<dd><a href="268512.html" title="第010章 灵液拍卖">第010章 灵液拍卖</a></dd>
+<dd><a href="268513.html" title="第011章 大赚一笔">第011章 大赚一笔</a></dd>
+<dd><a href="268514.html" title="第012章 天罡淬体">第012章 天罡淬体</a></dd>
+<dd><a href="268515.html" title="第013章 灵鲸瞬息决">第013章 灵鲸瞬息决</a></dd>
+<dd><a href="268516.html" title="第014章 血冠狐">第014章 血冠狐</a></dd>
+<dd><a href="268517.html" title="第015章 阴阳迷天大阵">第015章 阴阳迷天大阵</a></dd>
+<dd><a href="268518.html" title="第016章 破迷阵，割血冠">第016章 破迷阵，割血冠</a></dd>
+<dd><a href="268519.html" title="第017章 乾坤镯">第017章 乾坤镯</a></dd>
+<dd><a href="268520.html" title="第018章 须弥金刚大阵">第018章 须弥金刚大阵</a></dd>
+<dd><a href="268521.html" title="第019章 绝死绝杀绝灭">第019章 绝死绝杀绝灭</a></dd>
+<dd><a href="268522.html" title="第020章 荒古异虫">第020章 荒古异虫</a></dd>
+<dd><a href="268523.html" title="第021章 疾羽披风">第021章 疾羽披风</a></dd>
+<dd><a href="268524.html" title="第022章 后天六层">第022章 后天六层</a></dd>
+<dd><a href="268525.html" title="第023章 上品聚元灵液">第023章 上品聚元灵液</a></dd>
+<dd><a href="268526.html" title="第024章 拍卖">第024章 拍卖</a></dd>
+<dd><a href="268527.html" title="第025章 追踪">第025章 追踪</a></dd>
+<dd><a href="268528.html" title="第026章 谁是猎物">第026章 谁是猎物</a></dd>
+<dd><a href="268529.html" title="第027章 炼丹，传功">第027章 炼丹，传功</a></dd>
+<dd><a href="268530.html" title="第028章 噬灵兽">第028章 噬灵兽</a></dd>
+<dd><a href="268531.html" title="第029章 古河">第029章 古河</a></dd>
+<dd><a href="268532.html" title="第030章 同类相食">第030章 同类相食</a></dd>
+<dd><a href="268533.html" title="第031章 斩巨兽，得灵精">第031章 斩巨兽，得灵精</a></dd>
+<dd><a href="268534.html" title="第032章 灵石矿脉">第032章 灵石矿脉</a></dd>
+<dd><a href="268535.html" title="第033章 古河之死">第033章 古河之死</a></dd>
+<dd><a href="268536.html" title="第034章 突破先天">第034章 突破先天</a></dd>
+<dd><a href="268537.html" title="第035章 出洞，震惊">第035章 出洞，震惊</a></dd>
+<dd><a href="268538.html" title="第036章 父子重见">第036章 父子重见</a></dd>
+<dd><a href="268539.html" title="第037章 离别">第037章 离别</a></dd>
+<dd><a href="268540.html" title="第038章 蠢蛋都是这么死的">第038章 蠢蛋都是这么死的</a></dd>
+<dd><a href="268541.html" title="第039章 算计">第039章 算计</a></dd>
+<dd><a href="268542.html" title="第040章 先天九层妖兽">第040章 先天九层妖兽</a></dd>
+<dd><a href="268543.html" title="第041章 强势回归">第041章 强势回归</a></dd>
+<dd><a href="268544.html" title="第042章 柳家、云家">第042章 柳家、云家</a></dd>
+<dd><a href="268545.html" title="第043章 一拳打爆">第043章 一拳打爆</a></dd>
+<dd><a href="268546.html" title="第044章 中品法器？我也有">第044章 中品法器？我也有</a></dd>
+<dd><a href="268547.html" title="第045章 你，不是我的对手">第045章 你，不是我的对手</a></dd>
+<dd><a href="268548.html" title="第046章 获得血汞">第046章 获得血汞</a></dd>
+<dd><a href="268549.html" title="第047章 不知死活">第047章 不知死活</a></dd>
+<dd><a href="268550.html" title="第048章 你的速度太慢了">第048章 你的速度太慢了</a></dd>
+<dd><a href="268551.html" title="第049章 谁忽悠谁？">第049章 谁忽悠谁？</a></dd>
+<dd><a href="268552.html" title="第050章 炙虎">第050章 炙虎</a></dd>
+<dd><a href="268553.html" title="第051章 极冰珠">第051章 极冰珠</a></dd>
+<dd><a href="268554.html" title="第052章 炙虎内丹">第052章 炙虎内丹</a></dd>
+<dd><a href="268555.html" title="第053章 因为，你姓万">第053章 因为，你姓万</a></dd>
+<dd><a href="268556.html" title="第054章 再入昊天">第054章 再入昊天</a></dd>
+<dd><a href="268557.html" title="第055章 破阵、炼丹">第055章 破阵、炼丹</a></dd>
+<dd><a href="268558.html" title="第056章 洗尘丹">第056章 洗尘丹</a></dd>
+<dd><a href="268559.html" title="第057章 祝寿">第057章 祝寿</a></dd>
+<dd><a href="268560.html" title="第058章 三家会武">第058章 三家会武</a></dd>
+<dd><a href="268561.html" title="第059章 会武之战">第059章 会武之战</a></dd>
+<dd><a href="268562.html" title="第060章 震惊全场">第060章 震惊全场</a></dd>
+<dd><a href="268563.html" title="第061章 鞭影重重">第061章 鞭影重重</a></dd>
+<dd><a href="268564.html" title="第062章 帝庭的邀请">第062章 帝庭的邀请</a></dd>
+<dd><a href="268565.html" title="第063章 激流暗涌">第063章 激流暗涌</a></dd>
+<dd><a href="268566.html" title="第064章 东荒苦修">第064章 东荒苦修</a></dd>
+<dd><a href="268567.html" title="第065章 黑线蛟">第065章 黑线蛟</a></dd>
+<dd><a href="268568.html" title="第066章 致命危机">第066章 致命危机</a></dd>
+<dd><a href="268569.html" title="第067章 灭你满门">第067章 灭你满门</a></dd>
+<dd><a href="268570.html" title="第068章 杀人、抽筋">第068章 杀人、抽筋</a></dd>
+<dd><a href="268571.html" title="第069章 全身是宝">第069章 全身是宝</a></dd>
+<dd><a href="268572.html" title="第070章 先天境五层">第070章 先天境五层</a></dd>
+<dd><a href="268573.html" title="第071章 天魔真体、互相吞噬">第071章 天魔真体、互相吞噬</a></dd>
+<dd><a href="268574.html" title="第072章 猜测">第072章 猜测</a></dd>
+<dd><a href="268575.html" title="第073章 比斗开始">第073章 比斗开始</a></dd>
+<dd><a href="268576.html" title="第074章 古苍穹的爆发">第074章 古苍穹的爆发</a></dd>
+<dd><a href="268577.html" title="第075章 惊仙一指">第075章 惊仙一指</a></dd>
+<dd><a href="268578.html" title="第076章 胜者欢乐败者殇">第076章 胜者欢乐败者殇</a></dd>
+<dd><a href="268579.html" title="第077章 新的族长">第077章 新的族长</a></dd>
+<dd><a href="268580.html" title="第078章 万天瑞">第078章 万天瑞</a></dd>
+<dd><a href="268581.html" title="第079章 要变天了">第079章 要变天了</a></dd>
+<dd><a href="268582.html" title="第080章 前奏">第080章 前奏</a></dd>
+<dd><a href="268583.html" title="第081章 杀无赦">第081章 杀无赦</a></dd>
+<dd><a href="268584.html" title="第082章 二长老之死">第082章 二长老之死</a></dd>
+<dd><a href="268585.html" title="第083章 大开杀戒">第083章 大开杀戒</a></dd>
+<dd><a href="268586.html" title="第084章 坠落的尸体">第084章 坠落的尸体</a></dd>
+<dd><a href="268587.html" title="第085章 秒杀先天八层修士">第085章 秒杀先天八层修士</a></dd>
+<dd><a href="268588.html" title="第086章 万天瑞之死">第086章 万天瑞之死</a></dd>
+<dd><a href="268589.html" title="第087章 古苍岳之死">第087章 古苍岳之死</a></dd>
+<dd><a href="268590.html" title="第088章 杀">第088章 杀</a></dd>
+<dd><a href="268591.html" title="第089章 先天境七层">第089章 先天境七层</a></dd>
+<dd><a href="268592.html" title="第二卷01章 帝庭通缉令">第二卷01章 帝庭通缉令</a></dd>
+<dd><a href="268593.html" title="第二卷02章 藏追阳">第二卷02章 藏追阳</a></dd>
+<dd><a href="268594.html" title="第二卷03章 一剑劈死">第二卷03章 一剑劈死</a></dd>
+<dd><a href="268595.html" title="第二卷04章 分神">第二卷04章 分神</a></dd>
+<dd><a href="268596.html" title="第二卷05章 密林、幽洞">第二卷05章 密林、幽洞</a></dd>
+<dd><a href="268597.html" title="第二卷06章 五灵分神锥">第二卷06章 五灵分神锥</a></dd>
+<dd><a href="268598.html" title="第二卷07章 冰邪宗魔修">第二卷07章 冰邪宗魔修</a></dd>
+<dd><a href="268599.html" title="第二卷08章 联手">第二卷08章 联手</a></dd>
+<dd><a href="268600.html" title="第二卷09章 木灵附体">第二卷09章 木灵附体</a></dd>
+<dd><a href="268601.html" title="第二卷10章 恐怖的异宝">第二卷10章 恐怖的异宝</a></dd>
+<dd><a href="268602.html" title="第二卷11章 至尊圣焰令">第二卷11章 至尊圣焰令</a></dd>
+<dd><a href="268603.html" title="第二卷12章 先天境八层">第二卷12章 先天境八层</a></dd>
+<dd><a href="268604.html" title="第二卷13章 紫焰冰炎">第二卷13章 紫焰冰炎</a></dd>
+<dd><a href="268605.html" title="第二卷14章 小和尚">第二卷14章 小和尚</a></dd>
+<dd><a href="268606.html" title="第二卷15章 古辰出手">第二卷15章 古辰出手</a></dd>
+<dd><a href="268607.html" title="第二卷16章 玉琼仙酿">第二卷16章 玉琼仙酿</a></dd>
+<dd><a href="268608.html" title="第二卷17章 南天道人">第二卷17章 南天道人</a></dd>
+<dd><a href="268609.html" title="第二卷18章 虚天令">第二卷18章 虚天令</a></dd>
+<dd><a href="268610.html" title="第二卷19章 醉仙楼">第二卷19章 醉仙楼</a></dd>
+<dd><a href="268611.html" title="第二卷20章 藏天机">第二卷20章 藏天机</a></dd>
+<dd><a href="268612.html" title="第二卷21章 妖言惑众">第二卷21章 妖言惑众</a></dd>
+<dd><a href="268613.html" title="第二卷22章 小白的异术">第二卷22章 小白的异术</a></dd>
+<dd><a href="268614.html" title="第二卷23章 我知道你是谁">第二卷23章 我知道你是谁</a></dd>
+<dd><a href="268615.html" title="第二卷24章 镇天塔">第二卷24章 镇天塔</a></dd>
+<dd><a href="268616.html" title="第二卷25章 杀人夺宝">第二卷25章 杀人夺宝</a></dd>
+<dd><a href="268617.html" title="第二卷26章 血纹飞刀、秘地地">第二卷26章 血纹飞刀、秘地地</a></dd>
+<dd><a href="268618.html" title="第二卷27章 虚天宗">第二卷27章 虚天宗</a></dd>
+<dd><a href="268619.html" title="第二卷28章 相思病">第二卷28章 相思病</a></dd>
+<dd><a href="268620.html" title="第二卷29章 虚天五峰">第二卷29章 虚天五峰</a></dd>
+<dd><a href="268621.html" title="第二卷30章 测气运、测仙根">第二卷30章 测气运、测仙根</a></dd>
+<dd><a href="268622.html" title="第二卷31章 皇甫浩">第二卷31章 皇甫浩</a></dd>
+<dd><a href="268623.html" title="第二卷32章 敢赢？要你好看">第二卷32章 敢赢？要你好看</a></dd>
+<dd><a href="268624.html" title="第二卷33章 小样，就凭你？">第二卷33章 小样，就凭你？</a></dd>
+<dd><a href="268625.html" title="第二卷34章 百草峰">第二卷34章 百草峰</a></dd>
+<dd><a href="268626.html" title="第二卷35章 每日训练时间">第二卷35章 每日训练时间</a></dd>
+<dd><a href="268627.html" title="第二卷36章 再用迷魂术">第二卷36章 再用迷魂术</a></dd>
+<dd><a href="268628.html" title="第二卷37章 扛鼎，300圈">第二卷37章 扛鼎，300圈</a></dd>
+<dd><a href="268629.html" title="第二卷38章 先天境八层壁障">第二卷38章 先天境八层壁障</a></dd>
+<dd><a href="268630.html" title="第二卷39章 虚紫鸳">第二卷39章 虚紫鸳</a></dd>
+<dd><a href="268631.html" title="第二卷40章 梦中的女孩">第二卷40章 梦中的女孩</a></dd>
+<dd><a href="268632.html" title="第二卷41章 先天境九层">第二卷41章 先天境九层</a></dd>
+<dd><a href="268633.html" title="第二卷42章 送药">第二卷42章 送药</a></dd>
+<dd><a href="268634.html" title="第二卷43章 拳头大，就是牛">第二卷43章 拳头大，就是牛</a></dd>
+<dd><a href="268635.html" title="第二卷44章 道貌岸然">第二卷44章 道貌岸然</a></dd>
+<dd><a href="268636.html" title="第二卷45章 古辰的反击">第二卷45章 古辰的反击</a></dd>
+<dd><a href="268637.html" title="第二卷46章 刮目相看">第二卷46章 刮目相看</a></dd>
+<dd><a href="268638.html" title="第二卷47章 你在找虐">第二卷47章 你在找虐</a></dd>
+<dd><a href="268880.html" title="第二卷48章 师姐的关心 图">第二卷48章 师姐的关心 图</a></dd>
+<dd><a href="268881.html" title="第二卷49章 天才丹药师 图">第二卷49章 天才丹药师 图</a></dd>
+<dd><a href="268888.html" title="第二卷50章 玄阴绝脉 图">第二卷50章 玄阴绝脉 图</a></dd>
+<dd><a href="268889.html" title="第二卷51章 冰与火 图">第二卷51章 冰与火 图</a></dd>
+<dd><a href="268890.html" title="第二卷52章 师姐的玉背 图">第二卷52章 师姐的玉背 图</a></dd>
+<dd><a href="268895.html" title="第二卷53章 相恋心相印 图">第二卷53章 相恋心相印 图</a></dd>
+<dd><a href="268896.html" title="第二卷54章 炼丹大赛 图">第二卷54章 炼丹大赛 图</a></dd>
+<dd><a href="268897.html" title="第二卷55章 震惊四座 图">第二卷55章 震惊四座 图</a></dd>
+<dd><a href="268905.html" title="第二卷56章 极品妖孽 图">第二卷56章 极品妖孽 图</a></dd>
+<dd><a href="268909.html" title="第二卷57章 挑战长老 图">第二卷57章 挑战长老 图</a></dd>
+<dd><a href="268910.html" title="第二卷58章 狠狠打脸 图">第二卷58章 狠狠打脸 图</a></dd>
+<dd><a href="268911.html" title="第二卷59章 古辰炼丹 图">第二卷59章 古辰炼丹 图</a></dd>
+<dd><a href="268920.html" title="第二卷60章 狠狠践踏 图">第二卷60章 狠狠践踏 图</a></dd>
+<dd><a href="270836.html" title="第二卷61章 洞府一吻 图">第二卷61章 洞府一吻 图</a></dd>
+<dd><a href="270837.html" title="第二卷62章 午夜袭杀 图">第二卷62章 午夜袭杀 图</a></dd>
+<dd><a href="271400.html" title="第二卷63章 闭关筑胎 图">第二卷63章 闭关筑胎 图</a></dd>
+<dd><a href="274226.html" title="第二卷64章 修真之道 图">第二卷64章 修真之道 图</a></dd>
+<dd><a href="274227.html" title="第二卷65章 阴阳神海 图">第二卷65章 阴阳神海 图</a></dd>
+<dd><a href="278665.html" title="第二卷66章 无上法决 图">第二卷66章 无上法决 图</a></dd>
+<dd><a href="278753.html" title="第二卷67章 超级宝藏 图">第二卷67章 超级宝藏 图</a></dd>
+<dd><a href="279402.html" title="第二卷68章 名动虚天 图">第二卷68章 名动虚天 图</a></dd>
+<dd><a href="281083.html" title="第二卷69章 御火焚天 图">第二卷69章 御火焚天 图</a></dd>
+<dd><a href="281319.html" title="第二卷70章 一对狗男女 图">第二卷70章 一对狗男女 图</a></dd>
+<dd><a href="281556.html" title="第二卷71章 筑胎中期 图">第二卷71章 筑胎中期 图</a></dd>
+<dd><a href="281988.html" title="第二卷72章 深情一吻">第二卷72章 深情一吻</a></dd>
+<dd><a href="281989.html" title="第二卷73章 五脉大比">第二卷73章 五脉大比</a></dd>
+<dd><a href="282096.html" title="第二卷74章 再现拳威">第二卷74章 再现拳威</a></dd>
+<dd><a href="282209.html" title="第二卷75章 对战皇甫">第二卷75章 对战皇甫</a></dd>
+<dd><a href="282567.html" title="第二卷76章 一符炸飞 图">第二卷76章 一符炸飞 图</a></dd>
+<dd><a href="282569.html" title="第二卷77章 五脉第一 图">第二卷77章 五脉第一 图</a></dd>
+<dd><a href="282571.html" title="第二卷78章 极光宝镜 图">第二卷78章 极光宝镜 图</a></dd>
+<dd><a href="282573.html" title="第二卷79章 魔宗遗址 图">第二卷79章 魔宗遗址 图</a></dd>
+<dd><a href="502959.html" title="第二卷80章 故人相逢">第二卷80章 故人相逢</a></dd>
+<dd><a href="282904.html" title="第二卷81章 通玄灵体">第二卷81章 通玄灵体</a></dd>
+<dd><a href="283484.html" title="第二卷82章 战神之令 图">第二卷82章 战神之令 图</a></dd>
+<dd><a href="283568.html" title="第二卷83章 藏天机现 图">第二卷83章 藏天机现 图</a></dd>
+<dd><a href="283899.html" title="第二卷84章 天机一掌 图">第二卷84章 天机一掌 图</a></dd>
+<dd><a href="284162.html" title="第二卷85章 藏家修士 图">第二卷85章 藏家修士 图</a></dd>
+<dd><a href="285054.html" title="第二卷86章 尸魂少主 图">第二卷86章 尸魂少主 图</a></dd>
+<dd><a href="285920.html" title="第二卷87章 狗男狗女">第二卷87章 狗男狗女</a></dd>
+<dd><a href="285921.html" title="第二卷88章 又遇强敌">第二卷88章 又遇强敌</a></dd>
+<dd><a href="286202.html" title="第二卷89章 惨遭爆菊">第二卷89章 惨遭爆菊</a></dd>
+<dd><a href="286398.html" title="第二卷90章 挡路者死">第二卷90章 挡路者死</a></dd>
+<dd><a href="286461.html" title="第二卷91章战鲁银熊">第二卷91章战鲁银熊</a></dd>
+<dd><a href="286628.html" title="第二卷92章金狮拦路">第二卷92章金狮拦路</a></dd>
+<dd><a href="286733.html" title="第二卷93章 小白化形">第二卷93章 小白化形</a></dd>
+<dd><a href="286823.html" title="第二卷94章 白衣吴星">第二卷94章 白衣吴星</a></dd>
+<dd><a href="286907.html" title="第二卷95章逆命化龙">第二卷95章逆命化龙</a></dd>
+<dd><a href="287091.html" title="第二卷96章 超品仙根">第二卷96章 超品仙根</a></dd>
+<dd><a href="287773.html" title="第二卷97章 筑胎后期">第二卷97章 筑胎后期</a></dd>
+<dd><a href="291209.html" title="第二卷98章 姓藏者死 图">第二卷98章 姓藏者死 图</a></dd>
+<dd><a href="291210.html" title="第二卷99章 阴阳魔宗 图">第二卷99章 阴阳魔宗 图</a></dd>
+<dd><a href="291417.html" title="第二卷100章 师姐重逢 图">第二卷100章 师姐重逢 图</a></dd>
+<dd><a href="291558.html" title="第三卷01章 昆吾秘境 图">第三卷01章 昆吾秘境 图</a></dd>
+<dd><a href="291578.html" title="第三卷02章 地宫十层 图">第三卷02章 地宫十层 图</a></dd>
+<dd><a href="291841.html" title="第三卷03章 备方汇聚 图">第三卷03章 备方汇聚 图</a></dd>
+<dd><a href="292006.html" title="第三卷04章 乱战一堂 图">第三卷04章 乱战一堂 图</a></dd>
+<dd><a href="292428.html" title="第三卷05章 击杀鲁银熊 图">第三卷05章 击杀鲁银熊 图</a></dd>
+<dd><a href="292598.html" title="第三卷06章 神秘卷轴 图">第三卷06章 神秘卷轴 图</a></dd>
+<dd><a href="292871.html" title="第三卷07章 混沌阴阳 图">第三卷07章 混沌阴阳 图</a></dd>
+<dd><a href="293073.html" title="第三卷08章 古辰化龙 图">第三卷08章 古辰化龙 图</a></dd>
+<dd><a href="293367.html" title="第三卷09章 金刚拜佛 图">第三卷09章 金刚拜佛 图</a></dd>
+<dd><a href="293676.html" title="第三卷10章 危机重重 图">第三卷10章 危机重重 图</a></dd>
+<dd><a href="293834.html" title="第三卷11章 云雪之死 图">第三卷11章 云雪之死 图</a></dd>
+<dd><a href="294284.html" title="第三卷12章 你们都得死 图">第三卷12章 你们都得死 图</a></dd>
+<dd><a href="294441.html" title="第三卷13章 大杀四方 图">第三卷13章 大杀四方 图</a></dd>
+<dd><a href="294629.html" title="第三卷14章 十年之约 图">第三卷14章 十年之约 图</a></dd>
+<dd><a href="295154.html" title="第三卷15章 踏立虚空 图">第三卷15章 踏立虚空 图</a></dd>
+<dd><a href="295357.html" title="第三卷16章 古辰之威 图">第三卷16章 古辰之威 图</a></dd>
+<dd><a href="295684.html" title="第三卷17章 阴阳阵 图">第三卷17章 阴阳阵 图</a></dd>
+<dd><a href="297933.html" title="第三卷18章节意念化魂 图">第三卷18章节意念化魂 图</a></dd>
+<dd><a href="297934.html" title="第三卷19章 李家秘地 图">第三卷19章 李家秘地 图</a></dd>
+<dd><a href="298267.html" title="第三卷20章 六龙摄心阵 图">第三卷20章 六龙摄心阵 图</a></dd>
+<dd><a href="298495.html" title="第三卷21章 借阵杀人 图">第三卷21章 借阵杀人 图</a></dd>
+<dd><a href="298892.html" title="第三卷22章 宝塔天王 图">第三卷22章 宝塔天王 图</a></dd>
+<dd><a href="299194.html" title="第三卷23章 昆吾印 图">第三卷23章 昆吾印 图</a></dd>
+<dd><a href="300761.html" title="第三卷24章 对战藏天机 图">第三卷24章 对战藏天机 图</a></dd>
+<dd><a href="301045.html" title="第三卷25章 你杀不了我 图">第三卷25章 你杀不了我 图</a></dd>
+<dd><a href="301578.html" title="第三卷26章 木雷印 图">第三卷26章 木雷印 图</a></dd>
+<dd><a href="301579.html" title="第三卷27章 噬血花 图">第三卷27章 噬血花 图</a></dd>
+<dd><a href="301767.html" title="第三卷28章 身在何处 图">第三卷28章 身在何处 图</a></dd>
+<dd><a href="302076.html" title="第三卷29章 斩妖 图">第三卷29章 斩妖 图</a></dd>
+<dd><a href="302726.html" title="第三卷30章 千夜狼王 图">第三卷30章 千夜狼王 图</a></dd>
+<dd><a href="302961.html" title="第三卷31章 风雨欲来 图">第三卷31章 风雨欲来 图</a></dd>
+<dd><a href="303247.html" title="第三卷32章 战，大妖 图">第三卷32章 战，大妖 图</a></dd>
+<dd><a href="303433.html" title="第三卷33章 万妖追杀 图">第三卷33章 万妖追杀 图</a></dd>
+<dd><a href="304332.html" title="第三卷34章 我亦是妖 图">第三卷34章 我亦是妖 图</a></dd>
+<dd><a href="304623.html" title="第三卷35章 血海飘香 图">第三卷35章 血海飘香 图</a></dd>
+<dd><a href="304749.html" title="第三卷36章 化形仙草 图">第三卷36章 化形仙草 图</a></dd>
+<dd><a href="304890.html" title="第三卷37章 荒兽巨虬 图">第三卷37章 荒兽巨虬 图</a></dd>
+<dd><a href="305059.html" title="第三卷38章 古辰屠妖 图">第三卷38章 古辰屠妖 图</a></dd>
+<dd><a href="305368.html" title="第三卷39章 大大收获 图">第三卷39章 大大收获 图</a></dd>
+<dd><a href="305569.html" title="第三卷40章 修为爆涨 图">第三卷40章 修为爆涨 图</a></dd>
+<dd><a href="305886.html" title="第三卷41章 小白变异 图">第三卷41章 小白变异 图</a></dd>
+<dd><a href="306083.html" title="第三卷42章 化龙飞天 图">第三卷42章 化龙飞天 图</a></dd>
+<dd><a href="306479.html" title="第三卷43章 一网打尽 图">第三卷43章 一网打尽 图</a></dd>
+<dd><a href="307467.html" title="第三卷44章 一个和尚 图">第三卷44章 一个和尚 图</a></dd>
+<dd><a href="307918.html" title="第三卷45章 天道天盗 图">第三卷45章 天道天盗 图</a></dd>
+<dd><a href="308149.html" title="第三卷46章 师姐的相思 图">第三卷46章 师姐的相思 图</a></dd>
+<dd><a href="308798.html" title="第三卷47章 苍天啊一一 图">第三卷47章 苍天啊一一 图</a></dd>
+<dd><a href="308801.html" title="第三卷48章 美酒与故人 图">第三卷48章 美酒与故人 图</a></dd>
+<dd><a href="309284.html" title="第三卷49章 偷袭特使 图">第三卷49章 偷袭特使 图</a></dd>
+<dd><a href="309409.html" title="第三卷50章 联手杀敌 图">第三卷50章 联手杀敌 图</a></dd>
+<dd><a href="309631.html" title="第三卷51章 九荒旋风 图">第三卷51章 九荒旋风 图</a></dd>
+<dd><a href="309722.html" title="第三卷52章 黑虎岭 图">第三卷52章 黑虎岭 图</a></dd>
+<dd><a href="309972.html" title="第三卷53章 黑焰焚神 图">第三卷53章 黑焰焚神 图</a></dd>
+<dd><a href="310224.html" title="第三卷54章 极品法宝 图">第三卷54章 极品法宝 图</a></dd>
+<dd><a href="310542.html" title="第三卷55章 龟兔赛跑 图">第三卷55章 龟兔赛跑 图</a></dd>
+<dd><a href="311090.html" title="第三卷56章 赤血神蛟 图">第三卷56章 赤血神蛟 图</a></dd>
+<dd><a href="312039.html" title="第三卷57章 荒骨诛妖 图">第三卷57章 荒骨诛妖 图</a></dd>
+<dd><a href="312536.html" title="第三卷58章 闪天风翼 图">第三卷58章 闪天风翼 图</a></dd>
+<dd><a href="312659.html" title="第三卷59章 再次突破 图">第三卷59章 再次突破 图</a></dd>
+<dd><a href="312999.html" title="第三卷60章 无真的阴沉 图">第三卷60章 无真的阴沉 图</a></dd>
+<dd><a href="313178.html" title="第三卷61章 南天再现 图">第三卷61章 南天再现 图</a></dd>
+<dd><a href="313375.html" title="第三卷62章 忽悠个极品法宝 图">第三卷62章 忽悠个极品法宝 图</a></dd>
+<dd><a href="313786.html" title="第三卷63章 紫衣龙女 图">第三卷63章 紫衣龙女 图</a></dd>
+<dd><a href="313983.html" title="第三卷64章 和尚发情 图">第三卷64章 和尚发情 图</a></dd>
+<dd><a href="314277.html" title="第三卷65章 巨大危机 图">第三卷65章 巨大危机 图</a></dd>
+<dd><a href="314521.html" title="第三卷66章 横空出世 图">第三卷66章 横空出世 图</a></dd>
+<dd><a href="314655.html" title="第三卷67章 藏天机的笑意 图">第三卷67章 藏天机的笑意 图</a></dd>
+<dd><a href="314816.html" title="第三卷68章 藏天机的底牌 图">第三卷68章 藏天机的底牌 图</a></dd>
+<dd><a href="314935.html" title="第三卷69章 阴冥之地 图">第三卷69章 阴冥之地 图</a></dd>
+<dd><a href="315165.html" title="第三卷70章 飙升命泉境 图">第三卷70章 飙升命泉境 图</a></dd>
+<dd><a href="315281.html" title="第三卷71章 镇冥神符 图">第三卷71章 镇冥神符 图</a></dd>
+<dd><a href="315662.html" title="第三卷72章 神秘寒潭 图">第三卷72章 神秘寒潭 图</a></dd>
+<dd><a href="315769.html" title="第三卷73章 逆我者亡 图">第三卷73章 逆我者亡 图</a></dd>
+<dd><a href="316385.html" title="第三卷74章 无真的叛变 图">第三卷74章 无真的叛变 图</a></dd>
+<dd><a href="316386.html" title="第三卷75章 大战藏天机 图">第三卷75章 大战藏天机 图</a></dd>
+<dd><a href="316390.html" title="第三卷76章 太虚仙鼎 图">第三卷76章 太虚仙鼎 图</a></dd>
+<dd><a href="316392.html" title="第三卷77章 鼎天决现 图">第三卷77章 鼎天决现 图</a></dd>
+<dd><a href="317395.html" title="第三卷78章 无真之死 图">第三卷78章 无真之死 图</a></dd>
+<dd><a href="318806.html" title="第三卷79章 三丈元神 图">第三卷79章 三丈元神 图</a></dd>
+<dd><a href="318950.html" title="第三卷80章 黑焰火海 图">第三卷80章 黑焰火海 图</a></dd>
+<dd><a href="319050.html" title="第三卷81章 一颗巨心 图">第三卷81章 一颗巨心 图</a></dd>
+<dd><a href="319316.html" title="第三卷82章 金翅天鹏 图">第三卷82章 金翅天鹏 图</a></dd>
+<dd><a href="319437.html" title="第三卷83章 飞龙在天 图">第三卷83章 飞龙在天 图</a></dd>
+<dd><a href="319577.html" title="第三卷84章 巨龙骨架 图">第三卷84章 巨龙骨架 图</a></dd>
+<dd><a href="319702.html" title="第三卷85章 法宝成堆 图">第三卷85章 法宝成堆 图</a></dd>
+<dd><a href="320924.html" title="第三卷86章 神秘女子 图">第三卷86章 神秘女子 图</a></dd>
+<dd><a href="320925.html" title="第三卷87章 神兽 图">第三卷87章 神兽 图</a></dd>
+<dd><a href="320926.html" title="第三卷88章 无量天劫 图">第三卷88章 无量天劫 图</a></dd>
+<dd><a href="320927.html" title="第三卷89章 玲珑宝塔 图">第三卷89章 玲珑宝塔 图</a></dd>
+<dd><a href="321415.html" title="第三卷90章 宝塔之威 图">第三卷90章 宝塔之威 图</a></dd>
+<dd><a href="321790.html" title="第三卷91章 爆打藏天机 图">第三卷91章 爆打藏天机 图</a></dd>
+<dd><a href="322250.html" title="第三卷92章 人间仙境 图">第三卷92章 人间仙境 图</a></dd>
+<dd><a href="322458.html" title="第三卷93章 昆吾境 图">第三卷93章 昆吾境 图</a></dd>
+<dd><a href="322881.html" title="第三卷94章 两个小白 图">第三卷94章 两个小白 图</a></dd>
+<dd><a href="323033.html" title="第三卷95章 天狐王的悲剧人生 图">第三卷95章 天狐王的悲剧人生 图</a></dd>
+<dd><a href="323440.html" title="第三卷96章 南天仙门 图">第三卷96章 南天仙门 图</a></dd>
+<dd><a href="323667.html" title="第三卷97章 渡虚强者 图">第三卷97章 渡虚强者 图</a></dd>
+<dd><a href="324181.html" title="第三卷98章 少女的芬芳 图">第三卷98章 少女的芬芳 图</a></dd>
+<dd><a href="324417.html" title="第三卷99章 极品飞剑 图">第三卷99章 极品飞剑 图</a></dd>
+<dd><a href="326754.html" title="第三卷第100章 家族危机 图">第三卷第100章 家族危机 图</a></dd>
+<dd><a href="326755.html" title="第四卷001章 古辰渡劫 图">第四卷001章 古辰渡劫 图</a></dd>
+<dd><a href="326756.html" title="第四卷002章 东海三太子 图">第四卷002章 东海三太子 图</a></dd>
+<dd><a href="326930.html" title="第四卷003章 又虐藏天机 图">第四卷003章 又虐藏天机 图</a></dd>
+<dd><a href="327241.html" title="第四卷004章 吉辰归乡 图">第四卷004章 吉辰归乡 图</a></dd>
+<dd><a href="327352.html" title="第四卷005章 矿脉风波 图">第四卷005章 矿脉风波 图</a></dd>
+<dd><a href="327553.html" title="第四卷006章 父子重逢 图">第四卷006章 父子重逢 图</a></dd>
+<dd><a href="327904.html" title="第四卷007章 父子长谈 图">第四卷007章 父子长谈 图</a></dd>
+<dd><a href="328033.html" title="第四卷008章 古家小天鹅 图">第四卷008章 古家小天鹅 图</a></dd>
+<dd><a href="328232.html" title="第四卷第009章 全部都死 图">第四卷第009章 全部都死 图</a></dd>
+<dd><a href="328623.html" title="第四卷010章 杀个精光 图">第四卷010章 杀个精光 图</a></dd>
+<dd><a href="328663.html" title="第四卷011章 逆鳞之怒 图">第四卷011章 逆鳞之怒 图</a></dd>
+<dd><a href="329584.html" title="第四卷012章 杀往巨灵门 图">第四卷012章 杀往巨灵门 图</a></dd>
+<dd><a href="329689.html" title="第四卷013章 斩帝子 图">第四卷013章 斩帝子 图</a></dd>
+<dd><a href="329919.html" title="第四卷014章 诛藏真机 图">第四卷014章 诛藏真机 图</a></dd>
+<dd><a href="330026.html" title="第四卷015章 罪恶之窟 图">第四卷015章 罪恶之窟 图</a></dd>
+<dd><a href="330242.html" title="第四卷016章 所向无敌 图">第四卷016章 所向无敌 图</a></dd>
+<dd><a href="330870.html" title="第四卷017章 太上掌门 图">第四卷017章 太上掌门 图</a></dd>
+<dd><a href="331168.html" title="第四卷018章 巨灵门灭 图">第四卷018章 巨灵门灭 图</a></dd>
+<dd><a href="331958.html" title="第四卷019章 天大收获 图">第四卷019章 天大收获 图</a></dd>
+<dd><a href="332232.html" title="第四卷020章 上古奇阵 图">第四卷020章 上古奇阵 图</a></dd>
+<dd><a href="332532.html" title="第四卷021章 绝凶之地 图">第四卷021章 绝凶之地 图</a></dd>
+<dd><a href="332795.html" title="第四卷022章 轩辕帝冢 图">第四卷022章 轩辕帝冢 图</a></dd>
+<dd><a href="333233.html" title="第四卷023章 血脉通道 图">第四卷023章 血脉通道 图</a></dd>
+<dd><a href="333424.html" title="第四卷024章 古辰的血脉 图">第四卷024章 古辰的血脉 图</a></dd>
+<dd><a href="334011.html" title="第四卷025章 大帝的传承 图">第四卷025章 大帝的传承 图</a></dd>
+<dd><a href="334119.html" title="第四卷026章 无上秘藏 图">第四卷026章 无上秘藏 图</a></dd>
+<dd><a href="334567.html" title="第四卷027章 天地至宝 图">第四卷027章 天地至宝 图</a></dd>
+<dd><a href="334634.html" title="第四卷028章 古辰成年 图">第四卷028章 古辰成年 图</a></dd>
+<dd><a href="334908.html" title="第四卷029章 前世今生 图">第四卷029章 前世今生 图</a></dd>
+<dd><a href="335114.html" title="第四卷030章 昔日往事 图">第四卷030章 昔日往事 图</a></dd>
+<dd><a href="336243.html" title="第四卷031章 古辰传经 图">第四卷031章 古辰传经 图</a></dd>
+<dd><a href="336513.html" title="第四卷032章 最新消息 图">第四卷032章 最新消息 图</a></dd>
+<dd><a href="337419.html" title="第四卷033章 神奇葫芦 图">第四卷033章 神奇葫芦 图</a></dd>
+<dd><a href="337663.html" title="第四卷034章 圣女仙音 图">第四卷034章 圣女仙音 图</a></dd>
+<dd><a href="338272.html" title="第四卷035章 师姐的消息 图">第四卷035章 师姐的消息 图</a></dd>
+<dd><a href="338396.html" title="第四卷036章 一份重礼 图">第四卷036章 一份重礼 图</a></dd>
+<dd><a href="338683.html" title="第四卷037章 古辰赴会 图">第四卷037章 古辰赴会 图</a></dd>
+<dd><a href="338848.html" title="第四卷038章 自寻死路 图">第四卷038章 自寻死路 图</a></dd>
+<dd><a href="338939.html" title="第四卷039章 杀神之路 图">第四卷039章 杀神之路 图</a></dd>
+<dd><a href="339331.html" title="第四卷040章 声名鹤起 图">第四卷040章 声名鹤起 图</a></dd>
+<dd><a href="339574.html" title="第四卷041章 阴阳大咒印 图">第四卷041章 阴阳大咒印 图</a></dd>
+<dd><a href="339825.html" title="第四卷042章 千幻之眼 图">第四卷042章 千幻之眼 图</a></dd>
+<dd><a href="340153.html" title="第四卷043章 古辰的诺言 图">第四卷043章 古辰的诺言 图</a></dd>
+<dd><a href="340691.html" title="第四卷044章 无人可挡 图">第四卷044章 无人可挡 图</a></dd>
+<dd><a href="340765.html" title="第四卷045章 又斩帝子 图">第四卷045章 又斩帝子 图</a></dd>
+<dd><a href="341059.html" title="第四卷046章 金丹碎、冲命泉 图">第四卷046章 金丹碎、冲命泉 图</a></dd>
+<dd><a href="341244.html" title="第四卷047章 再斩帝子、二渡雷劫 图">第四卷047章 再斩帝子、二渡雷劫 图</a></dd>
+<dd><a href="341540.html" title="第四卷048章 古往今来，古辰第一 图">第四卷048章 古往今来，古辰第一 图</a></dd>
+<dd><a href="341868.html" title="第四卷049章 宝塔出，谁与争锋 图">第四卷049章 宝塔出，谁与争锋 图</a></dd>
+<dd><a href="344035.html" title="第四卷050章 古杀神，名震天下 图">第四卷050章 古杀神，名震天下 图</a></dd>
+<dd><a href="344232.html" title="第四卷051章 古辰，等你很久了 图">第四卷051章 古辰，等你很久了 图</a></dd>
+<dd><a href="344734.html" title="第四卷052章 姓龙，名无悔 图">第四卷052章 姓龙，名无悔 图</a></dd>
+<dd><a href="344838.html" title="第四卷053章 重逢吴星，圣皇初现 图">第四卷053章 重逢吴星，圣皇初现 图</a></dd>
+<dd><a href="345153.html" title="第四卷054章 对战圣皇【五爆第一更】 图">第四卷054章 对战圣皇【五爆第一更】 图</a></dd>
+<dd><a href="345376.html" title="第四卷055章 超级强者的战斗【第二更】 图">第四卷055章 超级强者的战斗【第二更】 图</a></dd>
+<dd><a href="345467.html" title="第四卷056章 小仙界，飙升的希望【第三更】 图">第四卷056章 小仙界，飙升的希望【第三更】 图</a></dd>
+<dd><a href="345635.html" title="第四卷057章 一个危险的问题【五爆第四更】 图">第四卷057章 一个危险的问题【五爆第四更】 图</a></dd>
+<dd><a href="345759.html" title="第四卷058章 藏天机，你不行【五爆第五更】 图">第四卷058章 藏天机，你不行【五爆第五更】 图</a></dd>
+<dd><a href="346093.html" title="第四卷059章 古辰vs藏天机 图">第四卷059章 古辰vs藏天机 图</a></dd>
+<dd><a href="346289.html" title="第四卷060章 天才的决斗【第二更】 图">第四卷060章 天才的决斗【第二更】 图</a></dd>
+<dd><a href="346399.html" title="第四卷061章 再踩藏天机【第三更】 图">第四卷061章 再踩藏天机【第三更】 图</a></dd>
+<dd><a href="347265.html" title="第四卷062章 当众打藏天机的脸 图">第四卷062章 当众打藏天机的脸 图</a></dd>
+<dd><a href="347488.html" title="第四卷063章 战神令显威【第二更】 图">第四卷063章 战神令显威【第二更】 图</a></dd>
+<dd><a href="347578.html" title="第四卷064章 摔死狗【第三更】 图">第四卷064章 摔死狗【第三更】 图</a></dd>
+<dd><a href="348085.html" title="第四卷065章 狠毒的女人 图">第四卷065章 狠毒的女人 图</a></dd>
+<dd><a href="348296.html" title="第四卷066章 永远不再分开 图">第四卷066章 永远不再分开 图</a></dd>
+<dd><a href="348659.html" title="第四卷067章 和师姐同住 图">第四卷067章 和师姐同住 图</a></dd>
+<dd><a href="348975.html" title="第四卷068章 仙音渡劫 图">第四卷068章 仙音渡劫 图</a></dd>
+<dd><a href="349315.html" title="第四卷069章 天大的消息 图">第四卷069章 天大的消息 图</a></dd>
+<dd><a href="349486.html" title="第四卷070章 有我在，不用怕 图">第四卷070章 有我在，不用怕 图</a></dd>
+<dd><a href="349622.html" title="第四卷071章 强者为尊，才是规矩 图">第四卷071章 强者为尊，才是规矩 图</a></dd>
+<dd><a href="349877.html" title="第四卷072章 古辰要立威 图">第四卷072章 古辰要立威 图</a></dd>
+<dd><a href="350060.html" title="第四卷073章 诸子后人 图">第四卷073章 诸子后人 图</a></dd>
+<dd><a href="350708.html" title="第四卷074章 诸子神兵 图">第四卷074章 诸子神兵 图</a></dd>
+<dd><a href="350709.html" title="第四卷075章 好多纯阳真气 图">第四卷075章 好多纯阳真气 图</a></dd>
+<dd><a href="350988.html" title="第四卷076章 突破灵婴后期 图">第四卷076章 突破灵婴后期 图</a></dd>
+<dd><a href="351105.html" title="第四卷077章 不败的神话 图">第四卷077章 不败的神话 图</a></dd>
+<dd><a href="351351.html" title="第四卷078章 巫神分身（月票加更） 图">第四卷078章 巫神分身（月票加更） 图</a></dd>
+<dd><a href="352241.html" title="第四卷079章 秒杀巫神 图">第四卷079章 秒杀巫神 图</a></dd>
+<dd><a href="352486.html" title="第四卷080章 罗汉金身 图">第四卷080章 罗汉金身 图</a></dd>
+<dd><a href="353306.html" title="第四卷081章 古佛舍利 图">第四卷081章 古佛舍利 图</a></dd>
+<dd><a href="353553.html" title="第四卷082章 纯阳vs至阳 图">第四卷082章 纯阳vs至阳 图</a></dd>
+<dd><a href="354694.html" title="第四卷083章 仙音帝君 图">第四卷083章 仙音帝君 图</a></dd>
+<dd><a href="354939.html" title="第四卷084章 小仙界 图">第四卷084章 小仙界 图</a></dd>
+<dd><a href="355299.html" title="第四卷085章 杀神崛起 图">第四卷085章 杀神崛起 图</a></dd>
+<dd><a href="355512.html" title="第四卷086章 纯阳至宝 图">第四卷086章 纯阳至宝 图</a></dd>
+<dd><a href="356104.html" title="第四卷087章 5倍修炼速度 图">第四卷087章 5倍修炼速度 图</a></dd>
+<dd><a href="356202.html" title="第四卷088章 八音天魔 图">第四卷088章 八音天魔 图</a></dd>
+<dd><a href="356386.html" title="第四卷089章 天魔八音 图">第四卷089章 天魔八音 图</a></dd>
+<dd><a href="356479.html" title="第四卷090章 仙音想要 图">第四卷090章 仙音想要 图</a></dd>
+<dd><a href="356680.html" title="第四卷091章 阴阳交．合 图">第四卷091章 阴阳交．合 图</a></dd>
+<dd><a href="358317.html" title="第四卷092章 无上神通（求月票） 图">第四卷092章 无上神通（求月票） 图</a></dd>
+<dd><a href="358452.html" title="第四卷093章 前因后果（求月票） 图">第四卷093章 前因后果（求月票） 图</a></dd>
+<dd><a href="358728.html" title="第四卷094章 小和尚的身世 图">第四卷094章 小和尚的身世 图</a></dd>
+<dd><a href="358939.html" title="第四卷095章 隐居 图">第四卷095章 隐居 图</a></dd>
+<dd><a href="359061.html" title="第四卷096章 三重雷劫（三更求月票） 图">第四卷096章 三重雷劫（三更求月票） 图</a></dd>
+<dd><a href="359365.html" title="第四卷097章 宝塔第二层 图">第四卷097章 宝塔第二层 图</a></dd>
+<dd><a href="359638.html" title="第四卷098章 北荒冰原（周一求票） 图">第四卷098章 北荒冰原（周一求票） 图</a></dd>
+<dd><a href="359975.html" title="第四卷099章 昆吾仙剑 图">第四卷099章 昆吾仙剑 图</a></dd>
+<dd><a href="364693.html" title="第四卷100章 抢老婆 图">第四卷100章 抢老婆 图</a></dd>
+<dd><a href="364694.html" title="第四卷101章 横扫元神期 图">第四卷101章 横扫元神期 图</a></dd>
+<dd><a href="364695.html" title="第四卷102章 东龙王现身 图">第四卷102章 东龙王现身 图</a></dd>
+<dd><a href="364696.html" title="第四卷103章 渡虚强者一拳 图">第四卷103章 渡虚强者一拳 图</a></dd>
+<dd><a href="364697.html" title="第四卷104章 古辰气爆东龙王 图">第四卷104章 古辰气爆东龙王 图</a></dd>
+<dd><a href="364698.html" title="第四卷105章 七太子熬烈 图">第四卷105章 七太子熬烈 图</a></dd>
+<dd><a href="364699.html" title="第四卷106章 救出小龙女 图">第四卷106章 救出小龙女 图</a></dd>
+<dd><a href="364700.html" title="第四卷107章 吴星在何处 图">第四卷107章 吴星在何处 图</a></dd>
+<dd><a href="364701.html" title="第四卷108章 渡虚秘境 图">第四卷108章 渡虚秘境 图</a></dd>
+<dd><a href="364702.html" title="第四卷109章诸子境界（求月票） 图">第四卷109章诸子境界（求月票） 图</a></dd>
+<dd><a href="364703.html" title="第四卷110章 战神令出 图">第四卷110章 战神令出 图</a></dd>
+<dd><a href="364704.html" title="第四卷111章 盘龙杀神枪 图">第四卷111章 盘龙杀神枪 图</a></dd>
+<dd><a href="364705.html" title="第四卷112章 九阴真气（三更求月票） 图">第四卷112章 九阴真气（三更求月票） 图</a></dd>
+<dd><a href="364706.html" title="第四卷113章 北荒禁地（求月票） 图">第四卷113章 北荒禁地（求月票） 图</a></dd>
+<dd><a href="364996.html" title="第四卷114章 线索（急求月票） 图">第四卷114章 线索（急求月票） 图</a></dd>
+<dd><a href="365379.html" title="第四卷115章 火焰大地（求月票） 图">第四卷115章 火焰大地（求月票） 图</a></dd>
+<dd><a href="365582.html" title="第四卷116章 祖龙之血（求月票） 图">第四卷116章 祖龙之血（求月票） 图</a></dd>
+<dd><a href="365944.html" title="第四卷117章 九龙咳血 图">第四卷117章 九龙咳血 图</a></dd>
+<dd><a href="366011.html" title="第四卷118章 太古之人 图">第四卷118章 太古之人 图</a></dd>
+<dd><a href="366230.html" title="第四卷119章 纯阳丹方 图">第四卷119章 纯阳丹方 图</a></dd>
+<dd><a href="366717.html" title="第四卷120章 太古秘闻 图">第四卷120章 太古秘闻 图</a></dd>
+<dd><a href="366844.html" title="第五卷001章 爆涨的修为 图">第五卷001章 爆涨的修为 图</a></dd>
+<dd><a href="369848.html" title="第五卷第002章 元婴化神图">第五卷第002章 元婴化神图</a></dd>
+<dd><a href="370162.html" title="第五卷第003章 重出天下 图">第五卷第003章 重出天下 图</a></dd>
+<dd><a href="370824.html" title="第五卷第004章 大型拍卖会 图">第五卷第004章 大型拍卖会 图</a></dd>
+<dd><a href="371161.html" title="第五卷第005章 统统买过来 图">第五卷第005章 统统买过来 图</a></dd>
+<dd><a href="371454.html" title="第五卷第006章 灵石就是多 图">第五卷第006章 灵石就是多 图</a></dd>
+<dd><a href="371743.html" title="第五卷007章 5000万灵石 图">第五卷007章 5000万灵石 图</a></dd>
+<dd><a href="371843.html" title="第五卷第008章 金焰草之争 图">第五卷第008章 金焰草之争 图</a></dd>
+<dd><a href="372077.html" title="第五卷第009章 古辰的实力 图">第五卷第009章 古辰的实力 图</a></dd>
+<dd><a href="372325.html" title="第五卷第010章 重振杀神名 图">第五卷第010章 重振杀神名 图</a></dd>
+<dd><a href="372811.html" title="第五卷第011章 天下震惊 图">第五卷第011章 天下震惊 图</a></dd>
+<dd><a href="373199.html" title="第五卷第012章 强势出击 图">第五卷第012章 强势出击 图</a></dd>
+<dd><a href="373290.html" title="第五卷第013章 斗仙大阵（求月票） 图">第五卷第013章 斗仙大阵（求月票） 图</a></dd>
+<dd><a href="373624.html" title="第五卷第014章 我言必死 图">第五卷第014章 我言必死 图</a></dd>
+<dd><a href="374062.html" title="第五卷第015章 玄阴秘典 图">第五卷第015章 玄阴秘典 图</a></dd>
+<dd><a href="374373.html" title="第五卷第016章 初见圣子 图">第五卷第016章 初见圣子 图</a></dd>
+<dd><a href="374735.html" title="第五卷第017章 突破元神中期 图">第五卷第017章 突破元神中期 图</a></dd>
+<dd><a href="374958.html" title="第五卷第018章 吴星归来 图">第五卷第018章 吴星归来 图</a></dd>
+<dd><a href="376136.html" title="第五卷第019章 西海之秘 图">第五卷第019章 西海之秘 图</a></dd>
+<dd><a href="376351.html" title="第五卷第020章 荣归虚天 图">第五卷第020章 荣归虚天 图</a></dd>
+<dd><a href="377759.html" title="第五卷第021章 掌教至尊 图">第五卷第021章 掌教至尊 图</a></dd>
+<dd><a href="378836.html" title="第五卷第022章 心中唏嘘 图">第五卷第022章 心中唏嘘 图</a></dd>
+<dd><a href="378837.html" title="第五卷第023章 古辰传道 图">第五卷第023章 古辰传道 图</a></dd>
+<dd><a href="378839.html" title="第五卷第024章 暗夜黑影 图">第五卷第024章 暗夜黑影 图</a></dd>
+<dd><a href="378842.html" title="第五卷第025章 血海人脸 图">第五卷第025章 血海人脸 图</a></dd>
+<dd><a href="378843.html" title="第五卷第026章 原来是你 图">第五卷第026章 原来是你 图</a></dd>
+<dd><a href="379155.html" title="第五卷027章 虐藏天机 图">第五卷027章 虐藏天机 图</a></dd>
+<dd><a href="379435.html" title="第五卷第028章 踏人大离 图">第五卷第028章 踏人大离 图</a></dd>
+<dd><a href="380457.html" title="第五卷第029章 完美女子 图">第五卷第029章 完美女子 图</a></dd>
+<dd><a href="380720.html" title="第五卷第030章 至阳之地 图">第五卷第030章 至阳之地 图</a></dd>
+<dd><a href="380869.html" title="第五卷第031章 战神殒落之地 图">第五卷第031章 战神殒落之地 图</a></dd>
+<dd><a href="380991.html" title="第五卷第032章 赤帝墓冢 图">第五卷第032章 赤帝墓冢 图</a></dd>
+<dd><a href="381573.html" title="第五卷033章 战神‘蚩’ 图">第五卷033章 战神‘蚩’ 图</a></dd>
+<dd><a href="382691.html" title="第五卷第034章 大帝战圣皇 图">第五卷第034章 大帝战圣皇 图</a></dd>
+<dd><a href="384093.html" title="第五卷第035章 三头六臂 图">第五卷第035章 三头六臂 图</a></dd>
+<dd><a href="384373.html" title="第五卷第036章 上古之秘（第一更） 图">第五卷第036章 上古之秘（第一更） 图</a></dd>
+<dd><a href="384469.html" title="第五卷第037章 火之本源（第二更） 图">第五卷第037章 火之本源（第二更） 图</a></dd>
+<dd><a href="384634.html" title="第五卷第038章 九炎赤焰花（第三更） 图">第五卷第038章 九炎赤焰花（第三更） 图</a></dd>
+<dd><a href="384749.html" title="第五卷第039章 巫神真身 图">第五卷第039章 巫神真身 图</a></dd>
+<dd><a href="384987.html" title="第五卷040章 开启火之本源 图">第五卷040章 开启火之本源 图</a></dd>
+<dd><a href="385520.html" title="第五卷第041章 战神的光辉 图">第五卷第041章 战神的光辉 图</a></dd>
+<dd><a href="385808.html" title="第五卷第042章 元神后期 图">第五卷第042章 元神后期 图</a></dd>
+<dd><a href="386487.html" title="第五卷第043章 实力对比 图">第五卷第043章 实力对比 图</a></dd>
+<dd><a href="386657.html" title="第五卷第044章 力量爆增 图">第五卷第044章 力量爆增 图</a></dd>
+<dd><a href="386801.html" title="第五卷第045章 九大部落 图">第五卷第045章 九大部落 图</a></dd>
+<dd><a href="387286.html" title="第五卷046章 南荒巫士 图">第五卷046章 南荒巫士 图</a></dd>
+<dd><a href="387696.html" title="第五卷047章 古辰化‘巫’ 图">第五卷047章 古辰化‘巫’ 图</a></dd>
+<dd><a href="388535.html" title="第五卷第048章 月下吹箫(2/3) 图">第五卷第048章 月下吹箫(2/3) 图</a></dd>
+<dd><a href="388620.html" title="第五卷第049章 美人相助（第三更） 图">第五卷第049章 美人相助（第三更） 图</a></dd>
+<dd><a href="389158.html" title="第五卷050章 阳巫部落（五张月票能涨3个名次，求月票！） 图">第五卷050章 阳巫部落（五张月票能涨3个名次，求月票！） 图</a></dd>
+<dd><a href="389396.html" title="第051章 血脉测试 图">第051章 血脉测试 图</a></dd>
+<dd><a href="389847.html" title="第052章 极品灵石 图">第052章 极品灵石 图</a></dd>
+<dd><a href="389937.html" title="第五卷053章 未知血脉 图">第五卷053章 未知血脉 图</a></dd>
+<dd><a href="390492.html" title="第五卷054章 猎龙大会 图">第五卷054章 猎龙大会 图</a></dd>
+<dd><a href="390785.html" title="第五卷055章 神女姒玉 图">第五卷055章 神女姒玉 图</a></dd>
+<dd><a href="391387.html" title="第五卷第056章 极南火海 图">第五卷第056章 极南火海 图</a></dd>
+<dd><a href="391728.html" title="第五卷第057章 大战熬弘 图">第五卷第057章 大战熬弘 图</a></dd>
+<dd><a href="391978.html" title="第五卷第058章 屠龙 图">第五卷第058章 屠龙 图</a></dd>
+<dd><a href="392139.html" title="第五卷第059章 猎杀火龙 图">第五卷第059章 猎杀火龙 图</a></dd>
+<dd><a href="393212.html" title="第060章 古辰的收获 图">第060章 古辰的收获 图</a></dd>
+<dd><a href="393539.html" title="第061章 九阴玄体 图">第061章 九阴玄体 图</a></dd>
+<dd><a href="393778.html" title="第062章 元神十二丈 图">第062章 元神十二丈 图</a></dd>
+<dd><a href="393806.html" title="063章 战神山开启 图">063章 战神山开启 图</a></dd>
+<dd><a href="394233.html" title="第064章 战神！战神！ 图">第064章 战神！战神！ 图</a></dd>
+<dd><a href="394352.html" title="第五卷065章 纯阳秘典 图">第五卷065章 纯阳秘典 图</a></dd>
+<dd><a href="395169.html" title="第五卷第066章 古神字印 图">第五卷第066章 古神字印 图</a></dd>
+<dd><a href="397137.html" title="第五卷第067章藏天机的消息 图">第五卷第067章藏天机的消息 图</a></dd>
+<dd><a href="397670.html" title="第五卷第068章 镇压藏天机（上） 图">第五卷第068章 镇压藏天机（上） 图</a></dd>
+<dd><a href="398290.html" title="第五卷第069章 镇压藏天机（中） 图">第五卷第069章 镇压藏天机（中） 图</a></dd>
+<dd><a href="398891.html" title="第五卷第070章 镇压藏天机（下） 图">第五卷第070章 镇压藏天机（下） 图</a></dd>
+<dd><a href="399584.html" title="第五卷第071章 镇压藏天机（续） 图">第五卷第071章 镇压藏天机（续） 图</a></dd>
+<dd><a href="400760.html" title="第五卷第072章 镇压藏天机（完） 图">第五卷第072章 镇压藏天机（完） 图</a></dd>
+<dd><a href="401421.html" title="第五卷第073章 九阳烈日果 图">第五卷第073章 九阳烈日果 图</a></dd>
+<dd><a href="401940.html" title="第五卷第074章 纯阳仙丹 图">第五卷第074章 纯阳仙丹 图</a></dd>
+<dd><a href="402039.html" title="第五卷第075章 玄阴绝脉爆发 图">第五卷第075章 玄阴绝脉爆发 图</a></dd>
+<dd><a href="403025.html" title="第五卷第076章 连渡雷劫 图">第五卷第076章 连渡雷劫 图</a></dd>
+<dd><a href="403577.html" title="第五卷第077章 战神星经 图">第五卷第077章 战神星经 图</a></dd>
+<dd><a href="404116.html" title="第078章 师姐的希望 图">第078章 师姐的希望 图</a></dd>
+<dd><a href="404885.html" title="第五卷第079章 古辰明窍 图">第五卷第079章 古辰明窍 图</a></dd>
+<dd><a href="406382.html" title="第五卷080章 五重雷劫 图">第五卷080章 五重雷劫 图</a></dd>
+<dd><a href="407295.html" title="第五卷081章 灭杀藏天机（上） 图">第五卷081章 灭杀藏天机（上） 图</a></dd>
+<dd><a href="407459.html" title="第五卷082章 灭杀藏天机（中） 图">第五卷082章 灭杀藏天机（中） 图</a></dd>
+<dd><a href="408016.html" title="第五卷第083章 灭杀藏天机（下） 图">第五卷第083章 灭杀藏天机（下） 图</a></dd>
+<dd><a href="408518.html" title="第五卷第084章 灭杀藏天机（终） 图">第五卷第084章 灭杀藏天机（终） 图</a></dd>
+<dd><a href="409108.html" title="第五卷第085章 重伤荼毒 图">第五卷第085章 重伤荼毒 图</a></dd>
+<dd><a href="409518.html" title="第五卷第086章战神？ 图">第五卷第086章战神？ 图</a></dd>
+<dd><a href="410423.html" title="第五卷第087章 超级大阳脉 图">第五卷第087章 超级大阳脉 图</a></dd>
+<dd><a href="410460.html" title="第五卷第088章 火龙王 图">第五卷第088章 火龙王 图</a></dd>
+<dd><a href="424703.html" title="第五卷第089章 击杀火龙王（上） 图">第五卷第089章 击杀火龙王（上） 图</a></dd>
+<dd><a href="424704.html" title="第五卷第090章 灭杀火龙王（中） 图">第五卷第090章 灭杀火龙王（中） 图</a></dd>
+<dd><a href="424705.html" title="第五卷第091章 灭杀火龙王（下） 图">第五卷第091章 灭杀火龙王（下） 图</a></dd>
+<dd><a href="424706.html" title="第五卷第092章 纯阴纯阳 图">第五卷第092章 纯阴纯阳 图</a></dd>
+<dd><a href="424707.html" title="第五卷第093章 巫族巨变 图">第五卷第093章 巫族巨变 图</a></dd>
+<dd><a href="424708.html" title="第五卷第094章 古辰的怒火 图">第五卷第094章 古辰的怒火 图</a></dd>
+<dd><a href="424709.html" title="第五卷第095章 姒玉的婚礼 图">第五卷第095章 姒玉的婚礼 图</a></dd>
+<dd><a href="424710.html" title="第五卷第096章 阴阳合壁 图">第五卷第096章 阴阳合壁 图</a></dd>
+<dd><a href="424711.html" title="第五卷第097章 对战渡虚强者（上） 图">第五卷第097章 对战渡虚强者（上） 图</a></dd>
+<dd><a href="424712.html" title="第五卷第098章 对战渡虚强者（下） 图">第五卷第098章 对战渡虚强者（下） 图</a></dd>
+<dd><a href="424713.html" title="第五卷第099章 一窍通百窍 图">第五卷第099章 一窍通百窍 图</a></dd>
+<dd><a href="424714.html" title="第五卷第100章 战神传承 图">第五卷第100章 战神传承 图</a></dd>
+<dd><a href="424715.html" title="第五卷第101章 元神融窍 图">第五卷第101章 元神融窍 图</a></dd>
+<dd><a href="424716.html" title="第五卷第102章 拳灭荼毒 图">第五卷第102章 拳灭荼毒 图</a></dd>
+<dd><a href="424717.html" title="第五卷第103章 血脉觉醒 图">第五卷第103章 血脉觉醒 图</a></dd>
+<dd><a href="424718.html" title="第五卷第104章 有人逆天 图">第五卷第104章 有人逆天 图</a></dd>
+<dd><a href="424719.html" title="第五卷第105章 大手印 图">第五卷第105章 大手印 图</a></dd>
+<dd><a href="424720.html" title="第五卷第106章 嗜血金龙 图">第五卷第106章 嗜血金龙 图</a></dd>
+<dd><a href="424721.html" title="第五卷第107章 郑家家主 图">第五卷第107章 郑家家主 图</a></dd>
+<dd><a href="424722.html" title="第五卷第108章 灭杀赢帝 图">第五卷第108章 灭杀赢帝 图</a></dd>
+<dd><a href="424723.html" title="第五卷第109章 藏家先祖 图">第五卷第109章 藏家先祖 图</a></dd>
+<dd><a href="424724.html" title="第五卷第l10章 驾雾强者（求月票） 图">第五卷第l10章 驾雾强者（求月票） 图</a></dd>
+<dd><a href="424725.html" title="第五卷第111章 战 图">第五卷第111章 战 图</a></dd>
+<dd><a href="424726.html" title="第五卷第112章 心境触动（求月票） 图">第五卷第112章 心境触动（求月票） 图</a></dd>
+<dd><a href="424727.html" title="第五卷第113章 生存法则 图">第五卷第113章 生存法则 图</a></dd>
+<dd><a href="424728.html" title="第五卷第114章 少年谷尘（求月票） 图">第五卷第114章 少年谷尘（求月票） 图</a></dd>
+<dd><a href="424729.html" title="第五卷第115章 六个少年 图">第五卷第115章 六个少年 图</a></dd>
+<dd><a href="424730.html" title="第五卷第116章 逆者有生 图">第五卷第116章 逆者有生 图</a></dd>
+<dd><a href="424731.html" title="第五卷第117章 人生转变 图">第五卷第117章 人生转变 图</a></dd>
+<dd><a href="424732.html" title="第五卷第118章 大势崛起 图">第五卷第118章 大势崛起 图</a></dd>
+<dd><a href="424735.html" title="第五卷第119章 大帝遗宝 图">第五卷第119章 大帝遗宝 图</a></dd>
+<dd><a href="424736.html" title="第五卷第120章 盘谷大帝 图">第五卷第120章 盘谷大帝 图</a></dd>
+<dd><a href="425243.html" title="第六卷第001章 古辰悟道 图">第六卷第001章 古辰悟道 图</a></dd>
+<dd><a href="425495.html" title="第六卷第002章 渡虚（上） 图">第六卷第002章 渡虚（上） 图</a></dd>
+<dd><a href="425947.html" title="第六卷第003章 渡虚（下） 图">第六卷第003章 渡虚（下） 图</a></dd>
+<dd><a href="426069.html" title="第六卷第004章 毁灭雷劫（拜求月票） 图">第六卷第004章 毁灭雷劫（拜求月票） 图</a></dd>
+<dd><a href="426344.html" title="第五卷第005章 古杀神！你竟然踏入了渡虚？ 图">第五卷第005章 古杀神！你竟然踏入了渡虚？ 图</a></dd>
+<dd><a href="426534.html" title="第六卷第006章 你想杀我？ 图">第六卷第006章 你想杀我？ 图</a></dd>
+<dd><a href="426877.html" title="第六卷第007章 超然世外 图">第六卷第007章 超然世外 图</a></dd>
+<dd><a href="426924.html" title="第六卷第008章 初闻帝墓(2/3) 图">第六卷第008章 初闻帝墓(2/3) 图</a></dd>
+<dd><a href="427135.html" title="第六卷第009章 六位强者(3/3) 图">第六卷第009章 六位强者(3/3) 图</a></dd>
+<dd><a href="427477.html" title="第六卷第010章 黑水大帝（求月票） 图">第六卷第010章 黑水大帝（求月票） 图</a></dd>
+<dd><a href="427678.html" title="第六卷第011章 渡虚如云 图">第六卷第011章 渡虚如云 图</a></dd>
+<dd><a href="428192.html" title="第六卷第012章 金鹏王 图">第六卷第012章 金鹏王 图</a></dd>
+<dd><a href="429588.html" title="第013章 吾之道你不知 图">第013章 吾之道你不知 图</a></dd>
+<dd><a href="429797.html" title="第六卷第014章 黑色玉佩 图">第六卷第014章 黑色玉佩 图</a></dd>
+<dd><a href="429911.html" title="第六卷第015章 黑帝墓冢（第一更） 图">第六卷第015章 黑帝墓冢（第一更） 图</a></dd>
+<dd><a href="430138.html" title="第六卷第016章 生死选择（第二更） 图">第六卷第016章 生死选择（第二更） 图</a></dd>
+<dd><a href="430756.html" title="第六卷第017章 阴魂傀儡 图">第六卷第017章 阴魂傀儡 图</a></dd>
+<dd><a href="430859.html" title="第六卷第018章 第一（第二更求月票） 图">第六卷第018章 第一（第二更求月票） 图</a></dd>
+<dd><a href="431884.html" title="第六卷第019章 齐聚（第一更求月票） 图">第六卷第019章 齐聚（第一更求月票） 图</a></dd>
+<dd><a href="432139.html" title="第六卷第020章 墓启（第二更求月票） 图">第六卷第020章 墓启（第二更求月票） 图</a></dd>
+<dd><a href="432486.html" title="第六卷021章 灭藏（一） 图">第六卷021章 灭藏（一） 图</a></dd>
+<dd><a href="432631.html" title="第六卷第022章 灭藏（二） 图">第六卷第022章 灭藏（二） 图</a></dd>
+<dd><a href="432908.html" title="第六卷第023章 鸡肋（第一更） 图">第六卷第023章 鸡肋（第一更） 图</a></dd>
+<dd><a href="432910.html" title="第六卷第024章 藏坤凡（第二更，求月票） 图">第六卷第024章 藏坤凡（第二更，求月票） 图</a></dd>
+<dd><a href="432973.html" title="第六卷第025章 火焚（第三更） 图">第六卷第025章 火焚（第三更） 图</a></dd>
+<dd><a href="433024.html" title="第六卷第026章 藏坤凡之死（第四更） 图">第六卷第026章 藏坤凡之死（第四更） 图</a></dd>
+<dd><a href="433143.html" title="第六卷第027章 寻找（第五更） 图">第六卷第027章 寻找（第五更） 图</a></dd>
+<dd><a href="433381.html" title="第六卷第028章 墓心（第一更求月票） 图">第六卷第028章 墓心（第一更求月票） 图</a></dd>
+<dd><a href="433466.html" title="第六卷第029章 毁阵（第二更求月票） 图">第六卷第029章 毁阵（第二更求月票） 图</a></dd>
+<dd><a href="433612.html" title="第六卷第030章 危局（第三更） 图">第六卷第030章 危局（第三更） 图</a></dd>
+<dd><a href="434748.html" title="第六卷第031章 水之本源 图">第六卷第031章 水之本源 图</a></dd>
+<dd><a href="434890.html" title="第六卷第032章 黑帝的力量（求月票） 图">第六卷第032章 黑帝的力量（求月票） 图</a></dd>
+<dd><a href="436870.html" title="第六卷第033章 获得水之本源 图">第六卷第033章 获得水之本源 图</a></dd>
+<dd><a href="436871.html" title="第六卷第034章 一拳败圣皇 图">第六卷第034章 一拳败圣皇 图</a></dd>
+<dd><a href="436872.html" title="第六卷第035章 一剑斩圣子 图">第六卷第035章 一剑斩圣子 图</a></dd>
+<dd><a href="436873.html" title="第六卷037章 腾云中期 图">第六卷037章 腾云中期 图</a></dd>
+<dd><a href="436874.html" title="第六卷第038章 出墓 图">第六卷第038章 出墓 图</a></dd>
+<dd><a href="436875.html" title="第六卷第039章 恩仇 图">第六卷第039章 恩仇 图</a></dd>
+<dd><a href="437176.html" title="第六卷第040章 回宗 图">第六卷第040章 回宗 图</a></dd>
+<dd><a href="440305.html" title="第六卷第041章 相见">第六卷第041章 相见</a></dd>
+<dd><a href="440551.html" title="第六卷第042章 神话">第六卷第042章 神话</a></dd>
+<dd><a href="440698.html" title="第六卷第043章 巫变（加更）">第六卷第043章 巫变（加更）</a></dd>
+<dd><a href="440814.html" title="第六卷第044章 同行">第六卷第044章 同行</a></dd>
+<dd><a href="441078.html" title="第六卷第045章 诬蔑">第六卷第045章 诬蔑</a></dd>
+<dd><a href="441950.html" title="第六卷046章 宝藏">第六卷046章 宝藏</a></dd>
+<dd><a href="627370.html" title="第047章 找死">第047章 找死</a></dd>
+<dd><a href="442507.html" title="第六卷第048章 反袭">第六卷第048章 反袭</a></dd>
+<dd><a href="442618.html" title="第六卷第049章 连杀">第六卷第049章 连杀</a></dd>
+<dd><a href="443292.html" title="第六卷第050章 追杀">第六卷第050章 追杀</a></dd>
+<dd><a href="443340.html" title="第六卷第051章 九曲云芝">第六卷第051章 九曲云芝</a></dd>
+<dd><a href="443688.html" title="第六卷第052章 藏坤玄">第六卷第052章 藏坤玄</a></dd>
+<dd><a href="444014.html" title="第六卷第053章 金龙人海">第六卷第053章 金龙人海</a></dd>
+<dd><a href="444390.html" title="第六卷第054章 玉鲸王">第六卷第054章 玉鲸王</a></dd>
+<dd><a href="444521.html" title="第六卷第055章 龙宫">第六卷第055章 龙宫</a></dd>
+<dd><a href="445351.html" title="第六卷第056章 风暴深渊">第六卷第056章 风暴深渊</a></dd>
+<dd><a href="445392.html" title="第六卷第057章 天力无穷">第六卷第057章 天力无穷</a></dd>
+<dd><a href="446404.html" title="第六卷第058章 先天灵宝（第三更）">第六卷第058章 先天灵宝（第三更）</a></dd>
+<dd><a href="446968.html" title="第六卷第059章 人定胜天">第六卷第059章 人定胜天</a></dd>
+<dd><a href="447087.html" title="第六卷第060章 天庭入口（第五更）">第六卷第060章 天庭入口（第五更）</a></dd>
+<dd><a href="447275.html" title="第六卷第061章 昆吾">第六卷第061章 昆吾</a></dd>
+<dd><a href="447640.html" title="第六卷第062章 仙帝">第六卷第062章 仙帝</a></dd>
+<dd><a href="447978.html" title="第六卷第063章 太古秘闻">第六卷第063章 太古秘闻</a></dd>
+<dd><a href="448155.html" title="第六卷第064章 破天指">第六卷第064章 破天指</a></dd>
+<dd><a href="448990.html" title="第六卷第065章 腾云后期">第六卷第065章 腾云后期</a></dd>
+<dd><a href="449075.html" title="第六卷第066章 乾坤玉壁">第六卷第066章 乾坤玉壁</a></dd>
+<dd><a href="449214.html" title="第六卷第067章 秒杀藏坤玄（加更）">第六卷第067章 秒杀藏坤玄（加更）</a></dd>
+<dd><a href="449553.html" title="第六卷第068章 强势反杀">第六卷第068章 强势反杀</a></dd>
+<dd><a href="449608.html" title="第六卷第069章 两万年的仙草">第六卷第069章 两万年的仙草</a></dd>
+<dd><a href="449719.html" title="第六卷第070章 万年水参（加更）">第六卷第070章 万年水参（加更）</a></dd>
+<dd><a href="450096.html" title="第六卷第071章 青帝消息">第六卷第071章 青帝消息</a></dd>
+<dd><a href="450255.html" title="第六卷第072章 感应本源图">第六卷第072章 感应本源图</a></dd>
+<dd><a href="450668.html" title="第六卷第073章 青桦王">第六卷第073章 青桦王</a></dd>
+<dd><a href="450710.html" title="第六卷第074章 爆打青桦王">第六卷第074章 爆打青桦王</a></dd>
+<dd><a href="450818.html" title="第六卷第075章 青树草（加更）">第六卷第075章 青树草（加更）</a></dd>
+<dd><a href="451243.html" title="第六卷第076章 炼仙丹">第六卷第076章 炼仙丹</a></dd>
+<dd><a href="451854.html" title="第六卷第077章 踏入驾雾">第六卷第077章 踏入驾雾</a></dd>
+<dd><a href="452051.html" title="第六卷第078章 七重雷劫">第六卷第078章 七重雷劫</a></dd>
+<dd><a href="452191.html" title="第六卷第079章 青帝墓冢">第六卷第079章 青帝墓冢</a></dd>
+<dd><a href="452450.html" title="第六卷第080章 无上仙宝材料图">第六卷第080章 无上仙宝材料图</a></dd>
+<dd><a href="455525.html" title="第六卷第081章 本源水印">第六卷第081章 本源水印</a></dd>
+<dd><a href="455911.html" title="第六卷第082章 木之本源">第六卷第082章 木之本源</a></dd>
+<dd><a href="456303.html" title="第六卷第083章 驾雾中期">第六卷第083章 驾雾中期</a></dd>
+<dd><a href="456514.html" title="第六卷第084章 小白，我来了">第六卷第084章 小白，我来了</a></dd>
+<dd><a href="456852.html" title="第085章 大闹天庭">第085章 大闹天庭</a></dd>
+<dd><a href="456991.html" title="第六卷第086章 该我出手了">第六卷第086章 该我出手了</a></dd>
+<dd><a href="457481.html" title="第六卷第087章 谁敢阻我，一概斩之">第六卷第087章 谁敢阻我，一概斩之</a></dd>
+<dd><a href="457947.html" title="第六卷第088章 神蛟王">第六卷第088章 神蛟王</a></dd>
+<dd><a href="458173.html" title="第六卷第089章 本王灭了你">第六卷第089章 本王灭了你</a></dd>
+<dd><a href="458431.html" title="第六卷第090章 古辰，你找死">第六卷第090章 古辰，你找死</a></dd>
+<dd><a href="458572.html" title="第六卷第091章 可惜，你今日就要死了">第六卷第091章 可惜，你今日就要死了</a></dd>
+<dd><a href="458811.html" title="第六卷第092章 打死你这杂毛鸟">第六卷第092章 打死你这杂毛鸟</a></dd>
+<dd><a href="460066.html" title="第六卷第093章 爆打金鹏王">第六卷第093章 爆打金鹏王</a></dd>
+<dd><a href="460247.html" title="第六卷第094章 天帝印">第六卷第094章 天帝印</a></dd>
+<dd><a href="460551.html" title="第六卷第095章 战神令">第六卷第095章 战神令</a></dd>
+<dd><a href="460908.html" title="第六卷第096章 金鹏王之死">第六卷第096章 金鹏王之死</a></dd>
+<dd><a href="461290.html" title="第六卷第097章 小白">第六卷第097章 小白</a></dd>
+<dd><a href="461463.html" title="第六卷第098章 无上仙丹">第六卷第098章 无上仙丹</a></dd>
+<dd><a href="462117.html" title="第六卷第099章 渡虚鬼魂">第六卷第099章 渡虚鬼魂</a></dd>
+<dd><a href="462483.html" title="第六卷第100章 一百零八尊鬼将">第六卷第100章 一百零八尊鬼将</a></dd>
+<dd><a href="463095.html" title="第六卷第101章 早些上路">第六卷第101章 早些上路</a></dd>
+<dd><a href="465204.html" title="第六卷第102章 绝魂鬼将(求保底月票)">第六卷第102章 绝魂鬼将(求保底月票)</a></dd>
+<dd><a href="465613.html" title="第六卷第103章 重入阴冥">第六卷第103章 重入阴冥</a></dd>
+<dd><a href="465857.html" title="第六卷第104章 鬼王来了">第六卷第104章 鬼王来了</a></dd>
+<dd><a href="466295.html" title="第六卷第105章 击杀鬼王">第六卷第105章 击杀鬼王</a></dd>
+<dd><a href="466577.html" title="第六卷第106章 妖族大劫">第六卷第106章 妖族大劫</a></dd>
+<dd><a href="467520.html" title="第六卷第107章 吉辰来了">第六卷第107章 吉辰来了</a></dd>
+<dd><a href="467959.html" title="第六卷第108章 拯救众妖王">第六卷第108章 拯救众妖王</a></dd>
+<dd><a href="468080.html" title="第六卷第109章 万鬼追魂">第六卷第109章 万鬼追魂</a></dd>
+<dd><a href="468289.html" title="第六卷第110章 九煞都天">第六卷第110章 九煞都天</a></dd>
+<dd><a href="468560.html" title="第六卷第111章 战神回归">第六卷第111章 战神回归</a></dd>
+<dd><a href="468777.html" title="第六卷第112章 斩杀四鬼">第六卷第112章 斩杀四鬼</a></dd>
+<dd><a href="469187.html" title="第六卷第113章 彻底消灭">第六卷第113章 彻底消灭</a></dd>
+<dd><a href="470544.html" title="第六卷第114章 驾雾后期">第六卷第114章 驾雾后期</a></dd>
+<dd><a href="470960.html" title="第六卷第115章 西垂佛门">第六卷第115章 西垂佛门</a></dd>
+<dd><a href="471415.html" title="第六卷第116章 论道斗佛">第六卷第116章 论道斗佛</a></dd>
+<dd><a href="471545.html" title="第六卷第117章 迦罗秘藏">第六卷第117章 迦罗秘藏</a></dd>
+<dd><a href="471701.html" title="第六卷第118章 金刚法相">第六卷第118章 金刚法相</a></dd>
+<dd><a href="472077.html" title="第六卷第119章 大败苦禅">第六卷第119章 大败苦禅</a></dd>
+<dd><a href="472453.html" title="第六卷第120章 全部擒拿">第六卷第120章 全部擒拿</a></dd>
+<dd><a href="472723.html" title="第七卷第001章 仙丹下落">第七卷第001章 仙丹下落</a></dd>
+<dd><a href="472940.html" title="第七卷第002章 齐人渡虚">第七卷第002章 齐人渡虚</a></dd>
+<dd><a href="473603.html" title="第七卷第003章 虚空丹方">第七卷第003章 虚空丹方</a></dd>
+<dd><a href="473889.html" title="第七卷第004章 变态材料">第七卷第004章 变态材料</a></dd>
+<dd><a href="474044.html" title="第七卷第005章 独闯圣庭">第七卷第005章 独闯圣庭</a></dd>
+<dd><a href="474355.html" title="第七卷第006章 血肉重生">第七卷第006章 血肉重生</a></dd>
+<dd><a href="474894.html" title="第七卷第007章 得圣玉果">第七卷第007章 得圣玉果</a></dd>
+<dd><a href="475932.html" title="第七卷第008章 斩杀圣主">第七卷第008章 斩杀圣主</a></dd>
+<dd><a href="550320.html" title="第七卷第009章 吴星来访">第七卷第009章 吴星来访</a></dd>
+<dd><a href="476570.html" title="第七卷第010章 下月初三">第七卷第010章 下月初三</a></dd>
+<dd><a href="477035.html" title="第七卷第011章 仙人坟墓">第七卷第011章 仙人坟墓</a></dd>
+<dd><a href="477119.html" title="第七卷第012章 舍已救人">第七卷第012章 舍已救人</a></dd>
+<dd><a href="477458.html" title="第七卷第013章 古修遗体">第七卷第013章 古修遗体</a></dd>
+<dd><a href="478530.html" title="第七卷第014章 恢复记忆">第七卷第014章 恢复记忆</a></dd>
+<dd><a href="478649.html" title="第七卷第015章 五行大阵">第七卷第015章 五行大阵</a></dd>
+<dd><a href="478754.html" title="第七卷第016章 古神血祭">第七卷第016章 古神血祭</a></dd>
+<dd><a href="479239.html" title="第七卷第017章 偷袭圣皇">第七卷第017章 偷袭圣皇</a></dd>
+<dd><a href="479313.html" title="第七卷第018章 如元神掌">第七卷第018章 如元神掌</a></dd>
+<dd><a href="479970.html" title="第七卷第019章 上古仙魔（上）">第七卷第019章 上古仙魔（上）</a></dd>
+<dd><a href="480032.html" title="第七卷第020章 上古仙魔（下）">第七卷第020章 上古仙魔（下）</a></dd>
+<dd><a href="480957.html" title="第七卷第021章 盖世强者">第七卷第021章 盖世强者</a></dd>
+<dd><a href="481831.html" title="第七卷第022章 唇枪舌剑">第七卷第022章 唇枪舌剑</a></dd>
+<dd><a href="482395.html" title="第七卷第023章 两只老狗">第七卷第023章 两只老狗</a></dd>
+<dd><a href="484179.html" title="第七卷第024章 吴星合道">第七卷第024章 吴星合道</a></dd>
+<dd><a href="485985.html" title="第七卷第025章惊夭大战（一更）">第七卷第025章惊夭大战（一更）</a></dd>
+<dd><a href="487081.html" title="第七卷第026章 进人大阵（二更）">第七卷第026章 进人大阵（二更）</a></dd>
+<dd><a href="487083.html" title="第七卷第027章 本源之金">第七卷第027章 本源之金</a></dd>
+<dd><a href="487085.html" title="第七卷第028章 灭杀渡禅（四更）">第七卷第028章 灭杀渡禅（四更）</a></dd>
+<dd><a href="487087.html" title="第七卷第029章 战神怒火">第七卷第029章 战神怒火</a></dd>
+<dd><a href="487209.html" title="第030章 整理收获（一更）">第030章 整理收获（一更）</a></dd>
+<dd><a href="487355.html" title="第七卷第031章 龙皇下落（二更）">第七卷第031章 龙皇下落（二更）</a></dd>
+<dd><a href="487799.html" title="第七卷第032章 战神令秘（三更）">第七卷第032章 战神令秘（三更）</a></dd>
+<dd><a href="488791.html" title="第七卷第033章 太吉凶阵">第七卷第033章 太吉凶阵</a></dd>
+<dd><a href="488983.html" title="第七卷第034章 得噬骨花">第七卷第034章 得噬骨花</a></dd>
+<dd><a href="489791.html" title="第七卷第035章 天地大劫">第七卷第035章 天地大劫</a></dd>
+<dd><a href="490033.html" title="第七卷第036章 踏人虚空">第七卷第036章 踏人虚空</a></dd>
+<dd><a href="490779.html" title="第七卷第037章 强敌环伺">第七卷第037章 强敌环伺</a></dd>
+<dd><a href="491967.html" title="第七卷第038章 破阵（上）">第七卷第038章 破阵（上）</a></dd>
+<dd><a href="492163.html" title="第七卷第039章 破阵（下）">第七卷第039章 破阵（下）</a></dd>
+<dd><a href="492581.html" title="第七卷第040章 杀出血路">第七卷第040章 杀出血路</a></dd>
+<dd><a href="493341.html" title="第七卷第041章 虚空挪移">第七卷第041章 虚空挪移</a></dd>
+<dd><a href="493839.html" title="第七卷第042章 吴星立威">第七卷第042章 吴星立威</a></dd>
+<dd><a href="494877.html" title="第七卷第043章 三族入侵">第七卷第043章 三族入侵</a></dd>
+<dd><a href="495145.html" title="第七卷第044章 大战骤起">第七卷第044章 大战骤起</a></dd>
+<dd><a href="498709.html" title="第七卷第045章 临阵叛逃">第七卷第045章 临阵叛逃</a></dd>
+<dd><a href="498917.html" title="第七卷第046章 破杀合道">第七卷第046章 破杀合道</a></dd>
+<dd><a href="499173.html" title="第七卷第047章 古辰消失">第七卷第047章 古辰消失</a></dd>
+<dd><a href="500239.html" title="第七卷第048章 围困虚天">第七卷第048章 围困虚天</a></dd>
+<dd><a href="500499.html" title="第七卷第049章 杀你祭旗">第七卷第049章 杀你祭旗</a></dd>
+<dd><a href="500801.html" title="第七卷第050章 一统道门">第七卷第050章 一统道门</a></dd>
+<dd><a href="502489.html" title="第七卷第051章 实力飙升">第七卷第051章 实力飙升</a></dd>
+<dd><a href="502691.html" title="第七卷第052章 秒杀圣皇">第七卷第052章 秒杀圣皇</a></dd>
+<dd><a href="505075.html" title="第七卷第053章 败姬凌虚">第七卷第053章 败姬凌虚</a></dd>
+<dd><a href="505441.html" title="第七卷第054章 妖族溃败">第七卷第054章 妖族溃败</a></dd>
+<dd><a href="506121.html" title="第七卷第055章 得皇天玺">第七卷第055章 得皇天玺</a></dd>
+<dd><a href="507095.html" title="第七卷第056章 虐天算子">第七卷第056章 虐天算子</a></dd>
+<dd><a href="507257.html" title="第七卷第057章 佛门传音">第七卷第057章 佛门传音</a></dd>
+<dd><a href="508421.html" title="第七卷第058章 白帝墓冢">第七卷第058章 白帝墓冢</a></dd>
+<dd><a href="508641.html" title="第七卷第059章 金之本源">第七卷第059章 金之本源</a></dd>
+<dd><a href="509130.html" title="第七卷第060章 抢夺本源">第七卷第060章 抢夺本源</a></dd>
+<dd><a href="509202.html" title="第七卷第061章 虚空中期">第七卷第061章 虚空中期</a></dd>
+<dd><a href="509789.html" title="第七卷第062章 战神无敌">第七卷第062章 战神无敌</a></dd>
+<dd><a href="509948.html" title="第七卷第063章 杀向佛门">第七卷第063章 杀向佛门</a></dd>
+<dd><a href="510306.html" title="第七卷第064章 攻天禅寺">第七卷第064章 攻天禅寺</a></dd>
+<dd><a href="510346.html" title="第七卷第065章 斩杀金台">第七卷第065章 斩杀金台</a></dd>
+<dd><a href="510537.html" title="第七卷第066章 好生之德">第七卷第066章 好生之德</a></dd>
+<dd><a href="510872.html" title="第七卷第067章 爆涨十倍">第七卷第067章 爆涨十倍</a></dd>
+<dd><a href="511083.html" title="第七卷第068章 重入天庭">第七卷第068章 重入天庭</a></dd>
+<dd><a href="511188.html" title="第七卷第069章 可敢一战">第七卷第069章 可敢一战</a></dd>
+<dd><a href="511437.html" title="第七卷第070章 圣鹰之死">第七卷第070章 圣鹰之死</a></dd>
+<dd><a href="512294.html" title="第七卷第071章 收获资源">第七卷第071章 收获资源</a></dd>
+<dd><a href="512407.html" title="第七卷第072章 土之本源">第七卷第072章 土之本源</a></dd>
+<dd><a href="512645.html" title="第七卷第073章 五源齐聚">第七卷第073章 五源齐聚</a></dd>
+<dd><a href="513334.html" title="第七卷第074章 天下无敌">第七卷第074章 天下无敌</a></dd>
+<dd><a href="514228.html" title="第075章 捏死天目">第075章 捏死天目</a></dd>
+<dd><a href="514564.html" title="第七卷第076章 战神饶命">第七卷第076章 战神饶命</a></dd>
+<dd><a href="514871.html" title="第七卷弟077章 铺天盖地">第七卷弟077章 铺天盖地</a></dd>
+<dd><a href="515262.html" title="第七卷078章 斩姬凌虚">第七卷078章 斩姬凌虚</a></dd>
+<dd><a href="515642.html" title="第七卷第079章 冲击合道">第七卷第079章 冲击合道</a></dd>
+<dd><a href="515978.html" title="第七卷第080章 九重雷劫">第七卷第080章 九重雷劫</a></dd>
+<dd><a href="516332.html" title="第八卷第001章 恐怖的力量">第八卷第001章 恐怖的力量</a></dd>
+<dd><a href="516656.html" title="第八卷第002章 再见昆吾">第八卷第002章 再见昆吾</a></dd>
+<dd><a href="516747.html" title="第八卷第003章 昆吾往事">第八卷第003章 昆吾往事</a></dd>
+<dd><a href="516932.html" title="第八卷第004章 古辰回归">第八卷第004章 古辰回归</a></dd>
+<dd><a href="517141.html" title="第八卷第005章 五行圣地">第八卷第005章 五行圣地</a></dd>
+<dd><a href="517504.html" title="第八卷第006章 古辰寻道">第八卷第006章 古辰寻道</a></dd>
+<dd><a href="517804.html" title="第八卷第007章 盘之大道（求月票）">第八卷第007章 盘之大道（求月票）</a></dd>
+<dd><a href="518068.html" title="第八卷第008章 灵魂研究">第八卷第008章 灵魂研究</a></dd>
+<dd><a href="521313.html" title="第八卷第009章 千拳合一">第八卷第009章 千拳合一</a></dd>
+<dd><a href="521451.html" title="第八卷第010章 毁灭雕像">第八卷第010章 毁灭雕像</a></dd>
+<dd><a href="522010.html" title="第八卷第011章 一朝顿悟">第八卷第011章 一朝顿悟</a></dd>
+<dd><a href="522366.html" title="第八卷第012章 阴阳大道">第八卷第012章 阴阳大道</a></dd>
+<dd><a href="522607.html" title="第八卷第013章 大劫之前">第八卷第013章 大劫之前</a></dd>
+<dd><a href="522949.html" title="第八卷第014章 盘古幅成">第八卷第014章 盘古幅成</a></dd>
+<dd><a href="523153.html" title="第八卷第015章 拯救龙皇">第八卷第015章 拯救龙皇</a></dd>
+<dd><a href="524176.html" title="第八卷第016章 仙凡通道">第八卷第016章 仙凡通道</a></dd>
+<dd><a href="524178.html" title="第八卷第017章 凡间宇宙">第八卷第017章 凡间宇宙</a></dd>
+<dd><a href="524487.html" title="第八卷018章 生命星球">第八卷018章 生命星球</a></dd>
+<dd><a href="524559.html" title="第八卷第019章 紫云修真星">第八卷第019章 紫云修真星</a></dd>
+<dd><a href="525073.html" title="第八卷第020章 再遇云雪">第八卷第020章 再遇云雪</a></dd>
+<dd><a href="525499.html" title="第八卷021章 大地元蛇">第八卷021章 大地元蛇</a></dd>
+<dd><a href="525982.html" title="第八卷第022章 生命之心">第八卷第022章 生命之心</a></dd>
+<dd><a href="526480.html" title="第八卷第023章 云家危机">第八卷第023章 云家危机</a></dd>
+<dd><a href="527217.html" title="第八卷第024章 你父是谁">第八卷第024章 你父是谁</a></dd>
+<dd><a href="531535.html" title="第八卷第025章 诸子大仙">第八卷第025章 诸子大仙</a></dd>
+<dd><a href="532228.html" title="第026章 爆打李罡">第026章 爆打李罡</a></dd>
+<dd><a href="533149.html" title="第八卷第027章 三位诸子">第八卷第027章 三位诸子</a></dd>
+<dd><a href="533948.html" title="第八卷第028章 全部打死">第八卷第028章 全部打死</a></dd>
+<dd><a href="534633.html" title="第八卷 第029章 天澜星海">第八卷 第029章 天澜星海</a></dd>
+<dd><a href="535465.html" title="第030章 天帝消息">第030章 天帝消息</a></dd>
+<dd><a href="536724.html" title="第八卷第031章 恒河星">第八卷第031章 恒河星</a></dd>
+<dd><a href="536986.html" title="第032章 巫神现身">第032章 巫神现身</a></dd>
+<dd><a href="537649.html" title="第033章 斩杀巫神">第033章 斩杀巫神</a></dd>
+<dd><a href="537766.html" title="第034章 天劫强者">第034章 天劫强者</a></dd>
+<dd><a href="543017.html" title="第035章 恒河星主">第035章 恒河星主</a></dd>
+<dd><a href="543018.html" title="第036章 天机老人">第036章 天机老人</a></dd>
+<dd><a href="543019.html" title="第037章 亘古不变">第037章 亘古不变</a></dd>
+<dd><a href="543020.html" title="第038章 合道成功">第038章 合道成功</a></dd>
+<dd><a href="543021.html" title="第039章 盘古大道">第039章 盘古大道</a></dd>
+<dd><a href="543022.html" title="第040章 太空婴儿">第040章 太空婴儿</a></dd>
+<dd><a href="543023.html" title="第041章 古辰收徒">第041章 古辰收徒</a></dd>
+<dd><a href="543024.html" title="第042章 救出云雪">第042章 救出云雪</a></dd>
+<dd><a href="543025.html" title="第043章 再战恒河">第043章 再战恒河</a></dd>
+<dd><a href="543026.html" title="第044章 斩杀恒河">第044章 斩杀恒河</a></dd>
+<dd><a href="543027.html" title="第045章 又见面了">第045章 又见面了</a></dd>
+<dd><a href="543028.html" title="第046章 天澜圣使">第046章 天澜圣使</a></dd>
+<dd><a href="543067.html" title="第047章 均的成长">第047章 均的成长</a></dd>
+<dd><a href="543180.html" title="第048章 斩杀二劫">第048章 斩杀二劫</a></dd>
+<dd><a href="543667.html" title="第049章 虚子地">第049章 虚子地</a></dd>
+<dd><a href="543878.html" title="第050章 秘界开启">第050章 秘界开启</a></dd>
+<dd><a href="546477.html" title="第051章 初至天澜">第051章 初至天澜</a></dd>
+<dd><a href="547022.html" title="第052章 打爆郑子">第052章 打爆郑子</a></dd>
+<dd><a href="548038.html" title="第053章 天劫如云">第053章 天劫如云</a></dd>
+<dd><a href="548328.html" title="第054章 三劫联手">第054章 三劫联手</a></dd>
+<dd><a href="548329.html" title="第055章 九阳归虚">第055章 九阳归虚</a></dd>
+<dd><a href="548805.html" title="第056章 以一敌三">第056章 以一敌三</a></dd>
+<dd><a href="549353.html" title="第057章 合道后期">第057章 合道后期</a></dd>
+<dd><a href="549881.html" title="第058章 全部斩杀">第058章 全部斩杀</a></dd>
+<dd><a href="551003.html" title="第059章 名震天澜">第059章 名震天澜</a></dd>
+<dd><a href="551004.html" title="第060章 金狮法王">第060章 金狮法王</a></dd>
+<dd><a href="551639.html" title="第061章 种因得果">第061章 种因得果</a></dd>
+<dd><a href="551780.html" title="第062章 天澜殿主">第062章 天澜殿主</a></dd>
+<dd><a href="552070.html" title="第063章 承受因果">第063章 承受因果</a></dd>
+<dd><a href="552348.html" title="第064章 天宫天帝">第064章 天宫天帝</a></dd>
+<dd><a href="553068.html" title="第065章 上元仙尊">第065章 上元仙尊</a></dd>
+<dd><a href="553552.html" title="第066章 初至天宫">第066章 初至天宫</a></dd>
+<dd><a href="553739.html" title="第067章 天宫试练">第067章 天宫试练</a></dd>
+<dd><a href="554439.html" title="第068章 众矢之的">第068章 众矢之的</a></dd>
+<dd><a href="555068.html" title="第069章 战无不胜">第069章 战无不胜</a></dd>
+<dd><a href="558246.html" title="第070章 古辰第一">第070章 古辰第一</a></dd>
+<dd><a href="558963.html" title="第071章 积分爆涨">第071章 积分爆涨</a></dd>
+<dd><a href="559892.html" title="第072章 无人能撼">第072章 无人能撼</a></dd>
+<dd><a href="560617.html" title="第073章 看守果园">第073章 看守果园</a></dd>
+<dd><a href="562431.html" title="第074章 天地同生">第074章 天地同生</a></dd>
+<dd><a href="563421.html" title="第075章 天劫秘境">第075章 天劫秘境</a></dd>
+<dd><a href="563422.html" title="第076章 摘啊摘啊摘果子">第076章 摘啊摘啊摘果子</a></dd>
+<dd><a href="564057.html" title="第077章 斩金太十（上）">第077章 斩金太十（上）</a></dd>
+<dd><a href="564287.html" title="第078章 斩金太十（下）">第078章 斩金太十（下）</a></dd>
+<dd><a href="565624.html" title="第079章 闯出天宫">第079章 闯出天宫</a></dd>
+<dd><a href="566001.html" title="第080章 天宫震动">第080章 天宫震动</a></dd>
+<dd><a href="566294.html" title="第081章 恐怖的古辰">第081章 恐怖的古辰</a></dd>
+<dd><a href="567399.html" title="第082章 大败二将">第082章 大败二将</a></dd>
+<dd><a href="570495.html" title="第083章 后追前堵">第083章 后追前堵</a></dd>
+<dd><a href="570896.html" title="第084章 诸天万界">第084章 诸天万界</a></dd>
+<dd><a href="571796.html" title="第085章 五行二劫">第085章 五行二劫</a></dd>
+<dd><a href="573880.html" title="第086章 鼎吉仙尊">第086章 鼎吉仙尊</a></dd>
+<dd><a href="574205.html" title="第087章 武斗天王">第087章 武斗天王</a></dd>
+<dd><a href="574778.html" title="第088章 龙族上宾">第088章 龙族上宾</a></dd>
+<dd><a href="575560.html" title="第089章 进入万界">第089章 进入万界</a></dd>
+<dd><a href="576024.html" title="第090章 打到吐血">第090章 打到吐血</a></dd>
+<dd><a href="576736.html" title="第091章 巅峰对决">第091章 巅峰对决</a></dd>
+<dd><a href="577125.html" title="第092章 阴界冥文">第092章 阴界冥文</a></dd>
+<dd><a href="578146.html" title="第093章 五行三劫">第093章 五行三劫</a></dd>
+<dd><a href="578719.html" title="第094章 本源之地">第094章 本源之地</a></dd>
+<dd><a href="579353.html" title="第095章 惊天宝光">第095章 惊天宝光</a></dd>
+<dd><a href="579473.html" title="第096章 金弓玉箭">第096章 金弓玉箭</a></dd>
+<dd><a href="579573.html" title="第097章 收获灵宝">第097章 收获灵宝</a></dd>
+<dd><a href="579614.html" title="第098章 五行四劫">第098章 五行四劫</a></dd>
+<dd><a href="579990.html" title="第099章 炼化神弓">第099章 炼化神弓</a></dd>
+<dd><a href="580136.html" title="第100章 神剑天王">第100章 神剑天王</a></dd>
+<dd><a href="580233.html" title="第001章 葬仙神弓">第001章 葬仙神弓</a></dd>
+<dd><a href="580322.html" title="第002章 箭射金乌">第002章 箭射金乌</a></dd>
+<dd><a href="581123.html" title="第003章 杀破诸天">第003章 杀破诸天</a></dd>
+<dd><a href="581237.html" title="第004章 当众射天王">第004章 当众射天王</a></dd>
+<dd><a href="581557.html" title="第005章 天王殒落">第005章 天王殒落</a></dd>
+<dd><a href="581707.html" title="第006章 天地神炉">第006章 天地神炉</a></dd>
+<dd><a href="581852.html" title="第007章 炼化古辰">第007章 炼化古辰</a></dd>
+<dd><a href="582239.html" title="第008章 巨头聚议">第008章 巨头聚议</a></dd>
+<dd><a href="582547.html" title="第009章 攻打天宫">第009章 攻打天宫</a></dd>
+<dd><a href="585631.html" title="第010章 永恒的一">第010章 永恒的一</a></dd>
+<dd><a href="586680.html" title="第011章 强势出击">第011章 强势出击</a></dd>
+<dd><a href="587972.html" title="第012章 大战天帝（一）">第012章 大战天帝（一）</a></dd>
+<dd><a href="588544.html" title="第013章 大战天帝（二）">第013章 大战天帝（二）</a></dd>
+<dd><a href="589185.html" title="第014章 大战天帝（三）">第014章 大战天帝（三）</a></dd>
+<dd><a href="590622.html" title="第015章 大战天帝（四）">第015章 大战天帝（四）</a></dd>
+<dd><a href="590846.html" title="第016章 鸿战昆吾">第016章 鸿战昆吾</a></dd>
+<dd><a href="591672.html" title="第017章 进入阴界">第017章 进入阴界</a></dd>
+<dd><a href="591673.html" title="第018章 阴朝圣地">第018章 阴朝圣地</a></dd>
+<dd><a href="592262.html" title="第019章 进入圣地">第019章 进入圣地</a></dd>
+<dd><a href="593515.html" title="第020章 阴之古神">第020章 阴之古神</a></dd>
+<dd><a href="593632.html" title="第021章 返回古荒">第021章 返回古荒</a></dd>
+<dd><a href="594565.html" title="第022章 天之古神">第022章 天之古神</a></dd>
+<dd><a href="596288.html" title="第023章 入昆吾界">第023章 入昆吾界</a></dd>
+<dd><a href="596731.html" title="第024章 亲友重逢">第024章 亲友重逢</a></dd>
+<dd><a href="596963.html" title="第025章 宝贝果子">第025章 宝贝果子</a></dd>
+<dd><a href="597397.html" title="第026章 拯救阴尊">第026章 拯救阴尊</a></dd>
+<dd><a href="597736.html" title="第027章 天怒劫生">第027章 天怒劫生</a></dd>
+<dd><a href="597997.html" title="第028章 齐至凡间">第028章 齐至凡间</a></dd>
+<dd><a href="598709.html" title="第029章 三入天宫">第029章 三入天宫</a></dd>
+<dd><a href="598881.html" title="第030章 金乌落尽">第030章 金乌落尽</a></dd>
+<dd><a href="599324.html" title="第031章 天宫毁灭">第031章 天宫毁灭</a></dd>
+<dd><a href="599424.html" title="第032章 大败天帝">第032章 大败天帝</a></dd>
+<dd><a href="600497.html" title="第033章 与鸿初战">第033章 与鸿初战</a></dd>
+<dd><a href="600840.html" title="第034章 死亡之歌">第034章 死亡之歌</a></dd>
+<dd><a href="601400.html" title="第035章 宇宙之心">第035章 宇宙之心</a></dd>
+<dd><a href="601533.html" title="第036章 万倍加速">第036章 万倍加速</a></dd>
+<dd><a href="602547.html" title="第037章 灭杀天帝">第037章 灭杀天帝</a></dd>
+<dd><a href="603460.html" title="第038章 道二生三（上）">第038章 道二生三（上）</a></dd>
+<dd><a href="603542.html" title="第039章 道二生三（下）">第039章 道二生三（下）</a></dd>
+<dd><a href="604129.html" title="第040章 庞然大物">第040章 庞然大物</a></dd>
+<dd><a href="606022.html" title="第041章 重返凡间">第041章 重返凡间</a></dd>
+<dd><a href="606486.html" title="第042章 万界踪迹">第042章 万界踪迹</a></dd>
+<dd><a href="606901.html" title="第043章 灭杀魔祖">第043章 灭杀魔祖</a></dd>
+<dd><a href="607016.html" title="第044章 征战诸天">第044章 征战诸天</a></dd>
+<dd><a href="607093.html" title="第045章 攻玉玄天">第045章 攻玉玄天</a></dd>
+<dd><a href="607286.html" title="第046章 鸿古论道">第046章 鸿古论道</a></dd>
+<dd><a href="607524.html" title="第047章 千年之战">第047章 千年之战</a></dd>
+<dd><a href="607801.html" title="第048章 三千大道">第048章 三千大道</a></dd>
+<dd><a href="608536.html" title="第049章 盘古宇宙">第049章 盘古宇宙</a></dd>
+<dd><a href="611830.html" title="第050章 你叫鸿均">第050章 你叫鸿均</a></dd>
+<dd><a href="613118.html" title="第051章 三战胜鸿">第051章 三战胜鸿</a></dd>
+<dd><a href="613274.html" title="第052章 将鸿镇压">第052章 将鸿镇压</a></dd>
+<dd><a href="615431.html" title="第053章 举世无敌">第053章 举世无敌</a></dd>
+<dd><a href="616384.html" title="第054章 宇宙之外（大结局）中">第054章 宇宙之外（大结局）中</a></dd>
+<dd><a href="616903.html" title="第055章 纯阳真仙（大结局）完本">第055章 纯阳真仙（大结局）完本</a></dd>
+<dd><a href="627372.html" title="第六卷第048章 反袭">第六卷第048章 反袭</a></dd>
+<dd><a href="627373.html" title="第六卷第049章 连杀">第六卷第049章 连杀</a></dd>
+<dd><a href="627374.html" title="第六卷第050章 追杀">第六卷第050章 追杀</a></dd>
+<dd><a href="627375.html" title="第六卷第051章 九曲云芝">第六卷第051章 九曲云芝</a></dd>
+<dd><a href="627376.html" title="第六卷第052章 藏坤玄">第六卷第052章 藏坤玄</a></dd>
+<dd><a href="627377.html" title="第六卷第053章 金龙人海">第六卷第053章 金龙人海</a></dd>
+<dd><a href="627378.html" title="第六卷第054章 玉鲸王">第六卷第054章 玉鲸王</a></dd>
+<dd><a href="627379.html" title="第六卷第055章 龙宫">第六卷第055章 龙宫</a></dd>
+<dd><a href="627380.html" title="第六卷第056章 风暴深渊">第六卷第056章 风暴深渊</a></dd>
+<dd><a href="627381.html" title="第六卷第057章 天力无穷">第六卷第057章 天力无穷</a></dd>
+<dd><a href="627382.html" title="第六卷第058章 先天灵宝（第三更）">第六卷第058章 先天灵宝（第三更）</a></dd>
+<dd><a href="627383.html" title="第六卷第059章 人定胜天">第六卷第059章 人定胜天</a></dd>
+<dd><a href="627384.html" title="第六卷第060章 天庭入口（第五更）">第六卷第060章 天庭入口（第五更）</a></dd>
+<dd><a href="627385.html" title="第六卷第061章 昆吾">第六卷第061章 昆吾</a></dd>
+<dd><a href="627386.html" title="第六卷第062章 仙帝">第六卷第062章 仙帝</a></dd>
+<dd><a href="627387.html" title="第六卷第063章 太古秘闻">第六卷第063章 太古秘闻</a></dd>
+<dd><a href="627388.html" title="第六卷第064章 破天指">第六卷第064章 破天指</a></dd>
+<dd><a href="627389.html" title="第六卷第065章 腾云后期">第六卷第065章 腾云后期</a></dd>
+<dd><a href="627390.html" title="第六卷第066章 乾坤玉壁">第六卷第066章 乾坤玉壁</a></dd>
+<dd><a href="627391.html" title="第六卷第067章 秒杀藏坤玄（加更）">第六卷第067章 秒杀藏坤玄（加更）</a></dd>
+<dd><a href="627393.html" title="第六卷第068章 强势反杀">第六卷第068章 强势反杀</a></dd>
+<dd><a href="627394.html" title="第六卷第069章 两万年的仙草">第六卷第069章 两万年的仙草</a></dd>
+<dd><a href="627395.html" title="第六卷第070章 万年水参（加更）">第六卷第070章 万年水参（加更）</a></dd>
+<dd><a href="627396.html" title="第六卷第071章 青帝消息">第六卷第071章 青帝消息</a></dd>
+<dd><a href="627397.html" title="第六卷第072章 感应本源">第六卷第072章 感应本源</a></dd>
+<dd><a href="627398.html" title="第六卷第073章 青桦王">第六卷第073章 青桦王</a></dd>
+<dd><a href="627399.html" title="第六卷第074章 爆打青桦王">第六卷第074章 爆打青桦王</a></dd>
+<dd><a href="627400.html" title="第六卷第075章 青树草（加更）">第六卷第075章 青树草（加更）</a></dd>
+<dd><a href="627401.html" title="第六卷第076章 炼仙丹">第六卷第076章 炼仙丹</a></dd>
+<dd><a href="627402.html" title="第六卷第077章 踏入驾雾">第六卷第077章 踏入驾雾</a></dd>
+<dd><a href="627403.html" title="第六卷第078章 七重雷劫">第六卷第078章 七重雷劫</a></dd>
+<dd><a href="627404.html" title="第六卷第079章 青帝墓冢">第六卷第079章 青帝墓冢</a></dd>
+<dd><a href="627405.html" title="第六卷第080章 无上仙宝材料">第六卷第080章 无上仙宝材料</a></dd>
+<dd><a href="627406.html" title="第六卷第081章 本源水印">第六卷第081章 本源水印</a></dd>
+<dd><a href="627407.html" title="第六卷第082章 木之本源">第六卷第082章 木之本源</a></dd>
+<dd><a href="627408.html" title="第六卷第083章 驾雾中期">第六卷第083章 驾雾中期</a></dd>
+<dd><a href="627409.html" title="第六卷第084章 小白，我来了">第六卷第084章 小白，我来了</a></dd>
+<dd><a href="627410.html" title="第085章 大闹天庭">第085章 大闹天庭</a></dd>
+<dd><a href="627411.html" title="第六卷第086章 该我出手了">第六卷第086章 该我出手了</a></dd>
+<dd><a href="627412.html" title="第六卷第087章 谁敢阻我，一概斩之">第六卷第087章 谁敢阻我，一概斩之</a></dd>
+<dd><a href="627413.html" title="第六卷第088章 神蛟王">第六卷第088章 神蛟王</a></dd>
+<dd><a href="627414.html" title="第六卷第089章 本王灭了你">第六卷第089章 本王灭了你</a></dd>
+<dd><a href="627415.html" title="第六卷第090章 古辰，你找死">第六卷第090章 古辰，你找死</a></dd>
+<dd><a href="627416.html" title="第六卷第091章 可惜，你今日就要死了">第六卷第091章 可惜，你今日就要死了</a></dd>
+<dd><a href="627417.html" title="第六卷第092章 打死你这杂毛鸟">第六卷第092章 打死你这杂毛鸟</a></dd>
+<dd><a href="627418.html" title="第六卷第093章 爆打金鹏王">第六卷第093章 爆打金鹏王</a></dd>
+<dd><a href="627419.html" title="第六卷第094章 天帝印">第六卷第094章 天帝印</a></dd>
+<dd><a href="627420.html" title="第六卷第095章 战神令">第六卷第095章 战神令</a></dd>
+<dd><a href="627421.html" title="第六卷第096章 金鹏王之死">第六卷第096章 金鹏王之死</a></dd>
+<dd><a href="627422.html" title="第六卷第097章 小白">第六卷第097章 小白</a></dd>
+<dd><a href="627424.html" title="第六卷第098章 无上仙丹">第六卷第098章 无上仙丹</a></dd>
+<dd><a href="627425.html" title="第六卷第099章 渡虚鬼魂">第六卷第099章 渡虚鬼魂</a></dd>
+<dd><a href="627426.html" title="第六卷第100章 一百零八尊鬼将">第六卷第100章 一百零八尊鬼将</a></dd>
+<dd><a href="627427.html" title="第六卷第101章 早些上路">第六卷第101章 早些上路</a></dd>
+<dd><a href="627428.html" title="第六卷第102章 绝魂鬼将(求保底月票)">第六卷第102章 绝魂鬼将(求保底月票)</a></dd>
+<dd><a href="627429.html" title="第六卷第103章 重入阴冥">第六卷第103章 重入阴冥</a></dd>
+<dd><a href="627430.html" title="第六卷第104章 鬼王来了">第六卷第104章 鬼王来了</a></dd>
+<dd><a href="627431.html" title="第六卷第105章 击杀鬼王">第六卷第105章 击杀鬼王</a></dd>
+<dd><a href="627432.html" title="第六卷第106章 妖族大劫">第六卷第106章 妖族大劫</a></dd>
+<dd><a href="627433.html" title="第六卷第107章 吉辰来了">第六卷第107章 吉辰来了</a></dd>
+<dd><a href="627434.html" title="第六卷第108章 拯救众妖王">第六卷第108章 拯救众妖王</a></dd>
+<dd><a href="627435.html" title="第六卷第109章 万鬼追魂">第六卷第109章 万鬼追魂</a></dd>
+<dd><a href="627436.html" title="第六卷第110章 九煞都天">第六卷第110章 九煞都天</a></dd>
+<dd><a href="627437.html" title="第六卷第111章 战神回归">第六卷第111章 战神回归</a></dd>
+<dd><a href="627438.html" title="第六卷第112章 斩杀四鬼">第六卷第112章 斩杀四鬼</a></dd>
+<dd><a href="627439.html" title="第六卷第113章 彻底消灭">第六卷第113章 彻底消灭</a></dd>
+<dd><a href="627440.html" title="第六卷第114章 驾雾后期">第六卷第114章 驾雾后期</a></dd>
+<dd><a href="627441.html" title="第六卷第115章 西垂佛门">第六卷第115章 西垂佛门</a></dd>
+<dd><a href="627442.html" title="第六卷第116章 论道斗佛">第六卷第116章 论道斗佛</a></dd>
+<dd><a href="627443.html" title="第六卷第117章 迦罗秘藏">第六卷第117章 迦罗秘藏</a></dd>
+<dd><a href="627444.html" title="第六卷第118章 金刚法相">第六卷第118章 金刚法相</a></dd>
+<dd><a href="627445.html" title="第六卷第119章 大败苦禅">第六卷第119章 大败苦禅</a></dd>
+<dd><a href="627446.html" title="第六卷第120章 全部擒拿">第六卷第120章 全部擒拿</a></dd>
+<dd><a href="627447.html" title="第七卷第001章 仙丹下落">第七卷第001章 仙丹下落</a></dd>
+<dd><a href="627448.html" title="第七卷第002章 齐人渡虚">第七卷第002章 齐人渡虚</a></dd>
+<dd><a href="627449.html" title="第七卷第003章 虚空丹方">第七卷第003章 虚空丹方</a></dd>
+<dd><a href="627450.html" title="第七卷第004章 变态材料">第七卷第004章 变态材料</a></dd>
+<dd><a href="627451.html" title="第七卷第005章 独闯圣庭">第七卷第005章 独闯圣庭</a></dd>
+<dd><a href="627452.html" title="第七卷第006章 血肉重生">第七卷第006章 血肉重生</a></dd>
+<dd><a href="627453.html" title="第七卷第007章 得圣玉果">第七卷第007章 得圣玉果</a></dd>
+<dd><a href="627454.html" title="第七卷第008章 斩杀圣主">第七卷第008章 斩杀圣主</a></dd>
+<dd><a href="627455.html" title="第七卷第009章 吴星来访">第七卷第009章 吴星来访</a></dd>
+<dd><a href="627456.html" title="第七卷第010章 下月初三">第七卷第010章 下月初三</a></dd>
+<dd><a href="627457.html" title="第七卷第011章 仙人坟墓">第七卷第011章 仙人坟墓</a></dd>
+<dd><a href="627458.html" title="第七卷第012章 舍已救人">第七卷第012章 舍已救人</a></dd>
+<dd><a href="627459.html" title="第七卷第013章 古修遗体">第七卷第013章 古修遗体</a></dd>
+<dd><a href="627460.html" title="第七卷第014章 恢复记忆">第七卷第014章 恢复记忆</a></dd>
+<dd><a href="627461.html" title="第七卷第015章 五行大阵">第七卷第015章 五行大阵</a></dd>
+<dd><a href="627462.html" title="第七卷第016章 古神血祭">第七卷第016章 古神血祭</a></dd>
+<dd><a href="627463.html" title="第七卷第017章 偷袭圣皇">第七卷第017章 偷袭圣皇</a></dd>
+<dd><a href="627464.html" title="第七卷第018章 如元神掌">第七卷第018章 如元神掌</a></dd>
+<dd><a href="627465.html" title="第七卷第019章 上古仙魔（上）">第七卷第019章 上古仙魔（上）</a></dd>
+<dd><a href="627466.html" title="第七卷第020章 上古仙魔（下）">第七卷第020章 上古仙魔（下）</a></dd>
+<dd><a href="627467.html" title="第七卷第021章 盖世强者">第七卷第021章 盖世强者</a></dd>
+<dd><a href="627468.html" title="第七卷第022章 唇枪舌剑">第七卷第022章 唇枪舌剑</a></dd>
+<dd><a href="627469.html" title="第七卷第023章 两只老狗">第七卷第023章 两只老狗</a></dd>
+<dd><a href="627470.html" title="第七卷第024章 吴星合道">第七卷第024章 吴星合道</a></dd>
+<dd><a href="627471.html" title="第七卷第025章惊夭大战（一更）">第七卷第025章惊夭大战（一更）</a></dd>
+<dd><a href="627472.html" title="第七卷第026章 进人大阵（二更）">第七卷第026章 进人大阵（二更）</a></dd>
+<dd><a href="627473.html" title="第七卷第027章 本源之金">第七卷第027章 本源之金</a></dd>
+<dd><a href="627474.html" title="第七卷第028章 灭杀渡禅（四更）">第七卷第028章 灭杀渡禅（四更）</a></dd>
+<dd><a href="627475.html" title="第七卷第029章 战神怒火">第七卷第029章 战神怒火</a></dd>
+<dd><a href="627476.html" title="第030章 整理收获（一更）">第030章 整理收获（一更）</a></dd>
+<dd><a href="627477.html" title="第七卷第031章 龙皇下落（二更）">第七卷第031章 龙皇下落（二更）</a></dd>
+<dd><a href="627478.html" title="第七卷第032章 战神令秘（三更）">第七卷第032章 战神令秘（三更）</a></dd>
+<dd><a href="627479.html" title="第七卷第033章 太吉凶阵">第七卷第033章 太吉凶阵</a></dd>
+<dd><a href="627480.html" title="第七卷第034章 得噬骨花">第七卷第034章 得噬骨花</a></dd>
+<dd><a href="627481.html" title="第七卷第035章 天地大劫">第七卷第035章 天地大劫</a></dd>
+<dd><a href="627482.html" title="第七卷第036章 踏人虚空">第七卷第036章 踏人虚空</a></dd>
+<dd><a href="627483.html" title="第七卷第037章 强敌环伺">第七卷第037章 强敌环伺</a></dd>
+<dd><a href="627484.html" title="第七卷第038章 破阵（上）">第七卷第038章 破阵（上）</a></dd>
+<dd><a href="627485.html" title="第七卷第039章 破阵（下）">第七卷第039章 破阵（下）</a></dd>
+<dd><a href="627486.html" title="第七卷第040章 杀出血路">第七卷第040章 杀出血路</a></dd>
+<dd><a href="627487.html" title="第七卷第041章 虚空挪移">第七卷第041章 虚空挪移</a></dd>
+<dd><a href="627488.html" title="第七卷第042章 吴星立威">第七卷第042章 吴星立威</a></dd>
+<dd><a href="627489.html" title="第七卷第043章 三族入侵">第七卷第043章 三族入侵</a></dd>
+<dd><a href="627490.html" title="第七卷第044章 大战骤起">第七卷第044章 大战骤起</a></dd>
+<dd><a href="627491.html" title="第七卷第045章 临阵叛逃">第七卷第045章 临阵叛逃</a></dd>
+<dd><a href="627492.html" title="第七卷第046章 破杀合道">第七卷第046章 破杀合道</a></dd>
+<dd><a href="627493.html" title="第七卷第047章 古辰消失">第七卷第047章 古辰消失</a></dd>
+<dd><a href="627494.html" title="第七卷第048章 围困虚天">第七卷第048章 围困虚天</a></dd>
+<dd><a href="627495.html" title="第七卷第049章 杀你祭旗">第七卷第049章 杀你祭旗</a></dd>
+<dd><a href="627496.html" title="第七卷第050章 一统道门">第七卷第050章 一统道门</a></dd>
+<dd><a href="627497.html" title="第七卷第051章 实力飙升">第七卷第051章 实力飙升</a></dd>
+<dd><a href="627498.html" title="第七卷第052章 秒杀圣皇">第七卷第052章 秒杀圣皇</a></dd>
+<dd><a href="627499.html" title="第七卷第053章 败姬凌虚">第七卷第053章 败姬凌虚</a></dd>
+<dd><a href="627500.html" title="第七卷第054章 妖族溃败">第七卷第054章 妖族溃败</a></dd>
+<dd><a href="627501.html" title="第七卷第055章 得皇天玺">第七卷第055章 得皇天玺</a></dd>
+<dd><a href="627502.html" title="第七卷第056章 虐天算子">第七卷第056章 虐天算子</a></dd>
+<dd><a href="627503.html" title="第七卷第057章 佛门传音">第七卷第057章 佛门传音</a></dd>
+<dd><a href="627504.html" title="第七卷第058章 白帝墓冢">第七卷第058章 白帝墓冢</a></dd>
+<dd><a href="627505.html" title="第七卷第059章 金之本源">第七卷第059章 金之本源</a></dd>
+<dd><a href="627506.html" title="第七卷第060章 抢夺本源">第七卷第060章 抢夺本源</a></dd>
+<dd><a href="627507.html" title="第七卷第061章 虚空中期">第七卷第061章 虚空中期</a></dd>
+<dd><a href="627508.html" title="第七卷第062章 战神无敌">第七卷第062章 战神无敌</a></dd>
+<dd><a href="627509.html" title="第七卷第063章 杀向佛门">第七卷第063章 杀向佛门</a></dd>
+<dd><a href="627510.html" title="第七卷第064章 攻天禅寺">第七卷第064章 攻天禅寺</a></dd>
+<dd><a href="627511.html" title="第七卷第065章 斩杀金台">第七卷第065章 斩杀金台</a></dd>
+<dd><a href="627512.html" title="第七卷第066章 好生之德">第七卷第066章 好生之德</a></dd>
+<dd><a href="627513.html" title="第七卷第067章 爆涨十倍">第七卷第067章 爆涨十倍</a></dd>
+<dd><a href="627514.html" title="第七卷第068章 重入天庭">第七卷第068章 重入天庭</a></dd>
+<dd><a href="627515.html" title="第七卷第069章 可敢一战">第七卷第069章 可敢一战</a></dd>
+<dd><a href="627516.html" title="第七卷第070章 圣鹰之死">第七卷第070章 圣鹰之死</a></dd>
+<dd><a href="627517.html" title="第七卷第071章 收获资源">第七卷第071章 收获资源</a></dd>
+<dd><a href="627518.html" title="第七卷第072章 土之本源">第七卷第072章 土之本源</a></dd>
+<dd><a href="627519.html" title="第七卷第073章 五源齐聚">第七卷第073章 五源齐聚</a></dd>
+<dd><a href="627520.html" title="第七卷第074章 天下无敌">第七卷第074章 天下无敌</a></dd>
+<dd><a href="627521.html" title="第075章 捏死天目">第075章 捏死天目</a></dd>
+<dd><a href="627522.html" title="第七卷第076章 战神饶命">第七卷第076章 战神饶命</a></dd>
+<dd><a href="627523.html" title="第七卷弟077章 铺天盖地">第七卷弟077章 铺天盖地</a></dd>
+<dd><a href="627524.html" title="第七卷078章 斩姬凌虚">第七卷078章 斩姬凌虚</a></dd>
+<dd><a href="627525.html" title="第七卷第079章 冲击合道">第七卷第079章 冲击合道</a></dd>
+<dd><a href="627526.html" title="第七卷第080章 九重雷劫">第七卷第080章 九重雷劫</a></dd>
+<dd><a href="627527.html" title="第八卷第001章 恐怖的力量">第八卷第001章 恐怖的力量</a></dd>
+<dd><a href="627528.html" title="第八卷第002章 再见昆吾">第八卷第002章 再见昆吾</a></dd>
+<dd><a href="627529.html" title="第八卷第003章 昆吾往事">第八卷第003章 昆吾往事</a></dd>
+<dd><a href="627530.html" title="第八卷第004章 古辰回归">第八卷第004章 古辰回归</a></dd>
+<dd><a href="627531.html" title="第八卷第005章 五行圣地">第八卷第005章 五行圣地</a></dd>
+<dd><a href="627532.html" title="第八卷第006章 古辰寻道">第八卷第006章 古辰寻道</a></dd>
+<dd><a href="627533.html" title="第八卷第007章 盘之大道（求月票）">第八卷第007章 盘之大道（求月票）</a></dd>
+<dd><a href="627534.html" title="第八卷第008章 灵魂研究">第八卷第008章 灵魂研究</a></dd>
+<dd><a href="627535.html" title="第八卷第009章 千拳合一">第八卷第009章 千拳合一</a></dd>
+<dd><a href="627536.html" title="第八卷第010章 毁灭雕像">第八卷第010章 毁灭雕像</a></dd>
+<dd><a href="627537.html" title="第八卷第011章 一朝顿悟">第八卷第011章 一朝顿悟</a></dd>
+<dd><a href="627538.html" title="第八卷第012章 阴阳大道">第八卷第012章 阴阳大道</a></dd>
+<dd><a href="627539.html" title="第八卷第013章 大劫之前">第八卷第013章 大劫之前</a></dd>
+<dd><a href="627540.html" title="第八卷第014章 盘古幅成">第八卷第014章 盘古幅成</a></dd>
+<dd><a href="627541.html" title="第八卷第015章 拯救龙皇">第八卷第015章 拯救龙皇</a></dd>
+<dd><a href="627542.html" title="第八卷第016章 仙凡通道">第八卷第016章 仙凡通道</a></dd>
+<dd><a href="627543.html" title="第八卷第017章 凡间宇宙">第八卷第017章 凡间宇宙</a></dd>
+<dd><a href="627544.html" title="第八卷018章 生命星球">第八卷018章 生命星球</a></dd>
+<dd><a href="627545.html" title="第八卷第019章 紫云修真星">第八卷第019章 紫云修真星</a></dd>
+<dd><a href="627546.html" title="第八卷第020章 再遇云雪">第八卷第020章 再遇云雪</a></dd>
+<dd><a href="627547.html" title="第八卷021章 大地元蛇">第八卷021章 大地元蛇</a></dd>
+<dd><a href="627548.html" title="第八卷第022章 生命之心">第八卷第022章 生命之心</a></dd>
+<dd><a href="627549.html" title="第八卷第023章 云家危机">第八卷第023章 云家危机</a></dd>
+<dd><a href="627550.html" title="第八卷第024章 你父是谁">第八卷第024章 你父是谁</a></dd>
+<dd><a href="627551.html" title="第八卷第025章 诸子大仙">第八卷第025章 诸子大仙</a></dd>
+<dd><a href="627552.html" title="第026章 爆打李罡">第026章 爆打李罡</a></dd>
+<dd><a href="627553.html" title="第八卷第027章 三位诸子">第八卷第027章 三位诸子</a></dd>
+<dd><a href="627554.html" title="第八卷第028章 全部打死">第八卷第028章 全部打死</a></dd>
+<dd><a href="627555.html" title="第八卷 第029章 天澜星海">第八卷 第029章 天澜星海</a></dd>
+<dd><a href="627556.html" title="第八卷 第030章 天帝消息">第八卷 第030章 天帝消息</a></dd>
+<dd><a href="627557.html" title="第八卷第031章 恒河星">第八卷第031章 恒河星</a></dd>
+<dd><a href="627558.html" title="第032章 巫神现身">第032章 巫神现身</a></dd>
+<dd><a href="627559.html" title="第033章 斩杀巫神">第033章 斩杀巫神</a></dd>
+<dd><a href="627560.html" title="第034章 天劫强者">第034章 天劫强者</a></dd>
+<dd><a href="627561.html" title="第035章 恒河星主">第035章 恒河星主</a></dd>
+<dd><a href="627562.html" title="第036章 天机老人">第036章 天机老人</a></dd>
+<dd><a href="627563.html" title="第037章 亘古不变">第037章 亘古不变</a></dd>
+<dd><a href="627564.html" title="第038章 合道成功">第038章 合道成功</a></dd>
+<dd><a href="627565.html" title="第039章 盘古大道">第039章 盘古大道</a></dd>
+<dd><a href="627566.html" title="第040章 太空婴儿">第040章 太空婴儿</a></dd>
+<dd><a href="627567.html" title="第041章 古辰收徒">第041章 古辰收徒</a></dd>
+<dd><a href="627568.html" title="第042章 救出云雪">第042章 救出云雪</a></dd>
+<dd><a href="627569.html" title="第043章 再战恒河">第043章 再战恒河</a></dd>
+<dd><a href="627570.html" title="第044章 斩杀恒河">第044章 斩杀恒河</a></dd>
+<dd><a href="627571.html" title="第045章 又见面了">第045章 又见面了</a></dd>
+<dd><a href="627572.html" title="第046章 天澜圣使">第046章 天澜圣使</a></dd>
+<dd><a href="627573.html" title="第047章 均的成长">第047章 均的成长</a></dd>
+<dd><a href="627574.html" title="第048章 斩杀二劫">第048章 斩杀二劫</a></dd>
+<dd><a href="627575.html" title="第049章 虚子地">第049章 虚子地</a></dd>
+<dd><a href="627576.html" title="第050章 秘界开启">第050章 秘界开启</a></dd>
+<dd><a href="627577.html" title="第051章 初至天澜">第051章 初至天澜</a></dd>
+<dd><a href="627578.html" title="第052章 打爆郑子">第052章 打爆郑子</a></dd>
+<dd><a href="627579.html" title="第053章 天劫如云">第053章 天劫如云</a></dd>
+<dd><a href="627580.html" title="第054章 三劫联手">第054章 三劫联手</a></dd>
+<dd><a href="627581.html" title="第055章 九阳归虚">第055章 九阳归虚</a></dd>
+<dd><a href="627582.html" title="第056章 以一敌三">第056章 以一敌三</a></dd>
+<dd><a href="627583.html" title="第057章 合道后期">第057章 合道后期</a></dd>
+<dd><a href="627584.html" title="第058章 全部斩杀">第058章 全部斩杀</a></dd>
+<dd><a href="627585.html" title="第059章 名震天澜">第059章 名震天澜</a></dd>
+<dd><a href="627586.html" title="第060章 金狮法王">第060章 金狮法王</a></dd>
+<dd><a href="627587.html" title="第061章 种因得果">第061章 种因得果</a></dd>
+<dd><a href="627588.html" title="第062章 天澜殿主">第062章 天澜殿主</a></dd>
+<dd><a href="627589.html" title="第063章 承受因果">第063章 承受因果</a></dd>
+<dd><a href="627590.html" title="第064章 天宫天帝">第064章 天宫天帝</a></dd>
+<dd><a href="627591.html" title="第065章 上元仙尊">第065章 上元仙尊</a></dd>
+<dd><a href="627592.html" title="第066章 初至天宫">第066章 初至天宫</a></dd>
+<dd><a href="627593.html" title="第067章 天宫试练">第067章 天宫试练</a></dd>
+<dd><a href="627594.html" title="第068章 众矢之的">第068章 众矢之的</a></dd>
+<dd><a href="627595.html" title="第069章 战无不胜">第069章 战无不胜</a></dd>
+<dd><a href="627596.html" title="第070章 古辰第一">第070章 古辰第一</a></dd>
+<dd><a href="627597.html" title="第071章 积分爆涨">第071章 积分爆涨</a></dd>
+<dd><a href="627598.html" title="第072章 无人能撼">第072章 无人能撼</a></dd>
+<dd><a href="627599.html" title="第073章 看守果园">第073章 看守果园</a></dd>
+<dd><a href="627600.html" title="第074章 天地同生果">第074章 天地同生果</a></dd>
+<dd><a href="627601.html" title="第075章 天劫秘境">第075章 天劫秘境</a></dd>
+<dd><a href="627602.html" title="第076章 摘啊摘啊摘果子">第076章 摘啊摘啊摘果子</a></dd>
+<dd><a href="627603.html" title="第077章 斩金太十（上）">第077章 斩金太十（上）</a></dd>
+<dd><a href="627604.html" title="第078章 斩金太十（下）">第078章 斩金太十（下）</a></dd>
+<dd><a href="627605.html" title="第079章 闯出天宫">第079章 闯出天宫</a></dd>
+<dd><a href="627606.html" title="第080章 天宫震动">第080章 天宫震动</a></dd>
+<dd><a href="627607.html" title="第081章 恐怖的古辰">第081章 恐怖的古辰</a></dd>
+<dd><a href="627608.html" title="第082章 大败二将">第082章 大败二将</a></dd>
+<dd><a href="627609.html" title="第083章 后追前堵">第083章 后追前堵</a></dd>
+<dd><a href="627610.html" title="第084章 诸天万界">第084章 诸天万界</a></dd>
+<dd><a href="627611.html" title="第085章 五行二劫">第085章 五行二劫</a></dd>
+<dd><a href="627612.html" title="第086章 鼎吉仙尊">第086章 鼎吉仙尊</a></dd>
+<dd><a href="627613.html" title="第087章 武斗天王">第087章 武斗天王</a></dd>
+<dd><a href="627614.html" title="第088章 龙族上宾">第088章 龙族上宾</a></dd>
+<dd><a href="627615.html" title="第089章 进入万界">第089章 进入万界</a></dd>
+<dd><a href="627616.html" title="第090章 打到吐血">第090章 打到吐血</a></dd>
+<dd><a href="627617.html" title="第091章 巅峰对决">第091章 巅峰对决</a></dd>
+<dd><a href="627618.html" title="第092章 阴界冥文">第092章 阴界冥文</a></dd>
+<dd><a href="627619.html" title="第093章 五行三劫">第093章 五行三劫</a></dd>
+<dd><a href="627621.html" title="第094章 本源之地">第094章 本源之地</a></dd>
+<dd><a href="627622.html" title="第095章 惊天宝光">第095章 惊天宝光</a></dd>
+<dd><a href="627623.html" title="第096章 金弓玉箭">第096章 金弓玉箭</a></dd>
+<dd><a href="627624.html" title="第097章 收获灵宝">第097章 收获灵宝</a></dd>
+<dd><a href="627625.html" title="第098章 五行四劫">第098章 五行四劫</a></dd>
+<dd><a href="627626.html" title="第099章 炼化神弓">第099章 炼化神弓</a></dd>
+<dd><a href="627627.html" title="第100章 神剑天王">第100章 神剑天王</a></dd>
+<dd><a href="627628.html" title="第003章 杀破诸天">第003章 杀破诸天</a></dd>
+<dd><a href="627629.html" title="第004章 当众射天王">第004章 当众射天王</a></dd>
+<dd><a href="627630.html" title="第005章 天王殒落">第005章 天王殒落</a></dd>
+<dd><a href="627631.html" title="第006章 天地神炉">第006章 天地神炉</a></dd>
+<dd><a href="627632.html" title="第007章 炼化古辰">第007章 炼化古辰</a></dd>
+<dd><a href="627633.html" title="第008章 巨头聚议">第008章 巨头聚议</a></dd>
+<dd><a href="627634.html" title="第009章 攻打天宫">第009章 攻打天宫</a></dd>
+<dd><a href="627635.html" title="第010章 永恒的一">第010章 永恒的一</a></dd>
+<dd><a href="627636.html" title="第011章 强势出击">第011章 强势出击</a></dd>
+<dd><a href="627637.html" title="第012章 大战天帝（一）">第012章 大战天帝（一）</a></dd>
+<dd><a href="627638.html" title="第013章 大战天帝（二）">第013章 大战天帝（二）</a></dd>
+<dd><a href="627639.html" title="第014章 大战天帝（三）">第014章 大战天帝（三）</a></dd>
+<dd><a href="627640.html" title="第015章 大战天帝（四）">第015章 大战天帝（四）</a></dd>
+<dd><a href="627642.html" title="第016章 鸿战昆吾">第016章 鸿战昆吾</a></dd>
+<dd><a href="627643.html" title="第017章 进入阴界">第017章 进入阴界</a></dd>
+<dd><a href="627644.html" title="第018章 阴朝圣地">第018章 阴朝圣地</a></dd>
+<dd><a href="627645.html" title="第019章 进入圣地">第019章 进入圣地</a></dd>
+<dd><a href="627646.html" title="第020章 阴之古神">第020章 阴之古神</a></dd>
+<dd><a href="627647.html" title="第021章 返回古荒">第021章 返回古荒</a></dd>
+<dd><a href="627648.html" title="第022章 天之古神">第022章 天之古神</a></dd>
+<dd><a href="627649.html" title="第023章 入昆吾界">第023章 入昆吾界</a></dd>
+<dd><a href="627650.html" title="第024章 亲友重逢">第024章 亲友重逢</a></dd>
+<dd><a href="627651.html" title="第025章 宝贝果子">第025章 宝贝果子</a></dd>
+<dd><a href="627652.html" title="第026章 拯救阴尊">第026章 拯救阴尊</a></dd>
+<dd><a href="627653.html" title="第027章 天怒劫生">第027章 天怒劫生</a></dd>
+<dd><a href="627654.html" title="第028章 齐至凡间">第028章 齐至凡间</a></dd>
+<dd><a href="627655.html" title="第029章 三入天宫">第029章 三入天宫</a></dd>
+<dd><a href="627656.html" title="第030章 金乌落尽">第030章 金乌落尽</a></dd>
+<dd><a href="627657.html" title="第031章 天宫毁灭">第031章 天宫毁灭</a></dd>
+<dd><a href="627658.html" title="第032章 大败天帝">第032章 大败天帝</a></dd>
+<dd><a href="627659.html" title="第034章 死亡之歌">第034章 死亡之歌</a></dd>
+<dd><a href="627660.html" title="第035章 宇宙之心">第035章 宇宙之心</a></dd>
+<dd><a href="627661.html" title="第036章 万倍加速">第036章 万倍加速</a></dd>
+<dd><a href="627662.html" title="第037章 灭杀天帝">第037章 灭杀天帝</a></dd>
+<dd><a href="627663.html" title="第038章 道二生三（上）">第038章 道二生三（上）</a></dd>
+<dd><a href="627664.html" title="第039章 道二生三（下）">第039章 道二生三（下）</a></dd>
+<dd><a href="627665.html" title="第040章 庞然大物">第040章 庞然大物</a></dd>
+<dd><a href="627666.html" title="第041章 重返凡间">第041章 重返凡间</a></dd>
+<dd><a href="627667.html" title="第042章 万界踪迹">第042章 万界踪迹</a></dd>
+<dd><a href="627668.html" title="第043章 灭杀魔祖">第043章 灭杀魔祖</a></dd>
+<dd><a href="627669.html" title="第044章 征战诸天">第044章 征战诸天</a></dd>
+<dd><a href="627670.html" title="第045章 攻玉玄天">第045章 攻玉玄天</a></dd>
+<dd><a href="627671.html" title="第046章 鸿古论道">第046章 鸿古论道</a></dd>
+<dd><a href="627672.html" title="第047章 千年之战">第047章 千年之战</a></dd>
+<dd><a href="627674.html" title="第048章 三千大道">第048章 三千大道</a></dd>
+<dd><a href="627675.html" title="第049章 盘古宇宙">第049章 盘古宇宙</a></dd>
+<dd><a href="627677.html" title="第050章 你叫鸿均">第050章 你叫鸿均</a></dd>
+<dd><a href="627678.html" title="第051章 三战胜鸿">第051章 三战胜鸿</a></dd>
+<dd><a href="627679.html" title="第052章 将鸿镇压">第052章 将鸿镇压</a></dd>
+<dd><a href="627680.html" title="第053章 举世无敌">第053章 举世无敌</a></dd>
+<dd><a href="627681.html" title="第054章 宇宙之外（大结局）中">第054章 宇宙之外（大结局）中</a></dd>
+<dd><a href="627682.html" title="第055章 纯阳真仙（大结局）完本">第055章 纯阳真仙（大结局）完本</a></dd>
+
+
+</dl>
+</div></div>
+
+
+
+
+
+</body>
